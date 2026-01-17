@@ -1,6 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
+﻿//Zadanie 4.
+Console.WriteLine("Zadanie 4.");
+Console.WriteLine();
 Osoba osoba1 = new Osoba("Adam", 34);
 Osoba osoba2 = new Osoba("Olek", 12);
 Osoba osoba3 = new Osoba("Ala", 54);
