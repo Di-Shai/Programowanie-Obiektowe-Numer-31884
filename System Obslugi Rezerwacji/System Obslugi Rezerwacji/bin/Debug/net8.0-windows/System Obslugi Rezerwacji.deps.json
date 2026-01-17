@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "System Obslugi Rezerwacji/1.0.0": {
+        "runtime": {
+          "System Obslugi Rezerwacji.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System Obslugi Rezerwacji/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,1887 @@
+[
+  {
+    "Id": "706cbec0-9579-4511-8c29-eda1d36e122e",
+    "KodRezerwacji": "9438/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "987623266",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": true,
+      "NrRejestracyjny": "PY953T",
+      "MarkaSamochodu": "Mitsubishi",
+      "ChceFakture": false,
+      "Imie": "Gosia",
+      "Nazwisko": "Staniszewska",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2025-12-29T00:00:00+01:00",
+    "DataDo": "2026-01-02T00:00:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 301,
+    "StandardPokoju": "Apartament",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "54aa1171-33b7-4408-88ef-cae95be5aec6",
+        "NazwaUslugi": "Nocleg (Apartament) x 4 dni",
+        "Kwota": 2400,
+        "CenaJednostkowa": 600,
+        "Ilosc": 4,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:07:53.156928+01:00"
+      },
+      {
+        "Id": "5fe4b1bf-3a61-44c2-a016-47ff2d123616",
+        "NazwaUslugi": "Obiadokolacje x 4 dni",
+        "Kwota": 952,
+        "CenaJednostkowa": 238,
+        "Ilosc": 4,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:07:53.1570867+01:00"
+      },
+      {
+        "Id": "0dc4ec10-9bc8-493a-bd2f-b976d429b58c",
+        "NazwaUslugi": "Parking (4 dni)",
+        "Kwota": 200,
+        "CenaJednostkowa": 50,
+        "Ilosc": 4,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:14:44.1534347+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 3552z\u0142 (21:16)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    9438/2025/IND/DOK/12\r\nDATA:     2026-01-03 21:16\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nGosia Staniszewska\r\nPESEL/NIP: 987623266\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nParking (4 dni)                     |     4 |      50,00 |     200,00\r\nObiadokolacje x 4 dni               |     4 |     238,00 |     952,00\r\nNocleg (Apartament) x 4 dni         |     4 |     600,00 |    2400,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         3288,89 PLN\r\nPODATEK VAT:                                         263,11 PLN\r\nDO ZAP\u0141ATY:                                         3552,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:16:09.0843554+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 4
+  },
+  {
+    "Id": "051afb48-f75a-45a3-8b2e-ef0228686bea",
+    "KodRezerwacji": "1619/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "04230604485",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": true,
+      "NrRejestracyjny": "ZKO 9LKO5",
+      "MarkaSamochodu": "Hundai",
+      "ChceFakture": false,
+      "Imie": "Robert",
+      "Nazwisko": "Kork",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2025-12-29T00:00:00+01:00",
+    "DataDo": "2025-12-31T00:00:00",
+    "NazwaPakietu": "Pakiet SPA",
+    "NumerPokoju": 101,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 1,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "48b61f93-5bc8-4684-9a4f-add7cbc9d96f",
+        "NazwaUslugi": "Nocleg (Standard) x 2 dni",
+        "Kwota": 500,
+        "CenaJednostkowa": 250,
+        "Ilosc": 2,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:08:13.2886169+01:00"
+      },
+      {
+        "Id": "04462a37-c268-4a10-88e4-1d58fb2cac39",
+        "NazwaUslugi": "Parking (2 dni)",
+        "Kwota": 100,
+        "CenaJednostkowa": 50,
+        "Ilosc": 2,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:19:44.0654443+01:00"
+      },
+      {
+        "Id": "7007a779-1fd0-478c-9198-92d1bd64bcfe",
+        "NazwaUslugi": "Nap\u00F3j Coca-Cola 0.5l",
+        "Kwota": 12,
+        "CenaJednostkowa": 12,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:16:19.4192242+01:00"
+      },
+      {
+        "Id": "2cda00da-0c8b-4f84-a654-a8382389ff7d",
+        "NazwaUslugi": "Pobyt psa",
+        "Kwota": 100,
+        "CenaJednostkowa": 100,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:16:21.9694395+01:00"
+      },
+      {
+        "Id": "2751d005-65c5-443a-a3b1-f20a3ea4d8c3",
+        "NazwaUslugi": "Masa\u017C Relaksacyjny",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:16:28.0658281+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 962z\u0142 (21:16)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    1619/2025/IND/DOK/82\r\nDATA:     2025-12-29 21:16\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nRobert Kork\r\nPESEL/NIP: 04230604485\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nMasa\u017C Relaksacyjny                  |     1 |     250,00 |     250,00\r\nPobyt psa                           |     1 |     100,00 |     100,00\r\nNap\u00F3j Coca-Cola 0.5l                |     1 |      12,00 |      12,00\r\nParking (2 dni)                     |     2 |      50,00 |     100,00\r\nNocleg (Standard) x 2 dni           |     2 |     250,00 |     500,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          890,74 PLN\r\nPODATEK VAT:                                          71,26 PLN\r\nDO ZAP\u0141ATY:                                          962,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T21:16:37.1136832+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 2
+  },
+  {
+    "Id": "fb05b05f-eb73-451c-9637-bd8410918384",
+    "KodRezerwacji": "1571/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "8523782623",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": false,
+      "Imie": "Nikola",
+      "Nazwisko": "Janosik",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2025-12-29T00:00:00",
+    "DataDo": "2026-01-01T00:00:00",
+    "NazwaPakietu": "Pakiet Sylwestrowy",
+    "NumerPokoju": 201,
+    "StandardPokoju": "Premium",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "a6b67558-4452-4d9f-bbe1-cd1bea8528a4",
+        "NazwaUslugi": "Nocleg (Premium) x 3 dni",
+        "Kwota": 1200,
+        "CenaJednostkowa": 400,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:08:33.7677034+01:00"
+      },
+      {
+        "Id": "ab239cfc-dd47-428c-aeea-4b2b9e4241df",
+        "NazwaUslugi": "Nap\u00F3j Coca-Cola 0.5l",
+        "Kwota": 12,
+        "CenaJednostkowa": 12,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:44:18.3800425+01:00"
+      },
+      {
+        "Id": "630f48ba-11db-4881-a2a9-d409ebae4311",
+        "NazwaUslugi": "Pobyt psa",
+        "Kwota": 100,
+        "CenaJednostkowa": 100,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:44:22.3117145+01:00"
+      },
+      {
+        "Id": "7ea6291a-7852-4803-8add-5f23f8845a38",
+        "NazwaUslugi": "Masa\u017C Relaksacyjny",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:19:03.1266394+01:00"
+      },
+      {
+        "Id": "4cef9285-9130-4dac-a630-ad042b8d151c",
+        "NazwaUslugi": "Masa\u017C Relaksacyjny",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:19:05.0453782+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 1312z\u0142 (19:44)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    1571/2025/IND/DOK/28\r\nDATA:     2025-12-29 19:44\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nNikola Janosiak\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nPobyt psa                           |     1 |     100,00 |     100,00\r\nNap\u00F3j Coca-Cola 0.5l                |     1 |      12,00 |      12,00\r\nNocleg (Premium) x 3 dni            |     3 |     400,00 |    1200,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         1214,81 PLN\r\nPODATEK VAT:                                          97,19 PLN\r\nDO ZAP\u0141ATY:                                         1312,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T19:44:36.8047832+01:00"
+      },
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 500z\u0142 (21:19)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    1571/2025/IND/DOK/4\r\nDATA:     2025-12-29 21:19\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nNikola Janosiak\r\nPESEL/NIP: 8523782623\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nMasa\u017C Relaksacyjny                  |     1 |     250,00 |     250,00\r\nMasa\u017C Relaksacyjny                  |     1 |     250,00 |     250,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          462,96 PLN\r\nPODATEK VAT:                                          37,04 PLN\r\nDO ZAP\u0141ATY:                                          500,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T21:19:10.2488475+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "52153faf-4c97-40f4-a7f4-3780b01f82d4",
+    "KodRezerwacji": "8483/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "856885358",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": true,
+      "NrRejestracyjny": "ZKO7532",
+      "MarkaSamochodu": "Mitsubishi",
+      "ChceFakture": false,
+      "Imie": "Kuba",
+      "Nazwisko": "Lotnik",
+      "Email": "kuba@wp.pl",
+      "Adres": ""
+    },
+    "DataOd": "2025-12-30T00:00:00",
+    "DataDo": "2026-01-02T00:00:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 202,
+    "StandardPokoju": "Premium",
+    "IloscOsob": 3,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "f762adb1-a791-46d3-8dac-c13d4e27bfc8",
+        "NazwaUslugi": "Nocleg (Premium) x 3 dni",
+        "Kwota": 1200,
+        "CenaJednostkowa": 400,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:09:07.8581109+01:00"
+      },
+      {
+        "Id": "d90764e0-420e-4ac4-a424-1a6df9271971",
+        "NazwaUslugi": "Obiadokolacje x 3 dni",
+        "Kwota": 1071,
+        "CenaJednostkowa": 357,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T19:09:07.8581178+01:00"
+      },
+      {
+        "Id": "c183cd39-7ae1-464d-aae2-310242d0723b",
+        "NazwaUslugi": "Parking (3 dni)",
+        "Kwota": 150,
+        "CenaJednostkowa": 50,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T17:27:30.5498735+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 2421z\u0142 (21:15)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    8483/2025/IND/DOK/84\r\nDATA:     2026-01-03 21:15\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nKuba Lotnik\r\nPESEL/NIP: 856885358\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nParking (3 dni)                     |     3 |      50,00 |     150,00\r\nObiadokolacje x 3 dni               |     3 |     357,00 |    1071,00\r\nNocleg (Premium) x 3 dni            |     3 |     400,00 |    1200,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         2241,67 PLN\r\nPODATEK VAT:                                         179,33 PLN\r\nDO ZAP\u0141ATY:                                         2421,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:15:18.2902742+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "9396b625-14de-4e1e-b57f-7f3090d5b9fc",
+    "KodRezerwacji": "2002/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "952857237",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": false,
+      "Imie": "Oliwia",
+      "Nazwisko": "Korubylak",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2025-12-29T00:00:00+01:00",
+    "DataDo": "2026-01-03T00:00:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 102,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "7ea0afc0-e7d1-42f8-8f16-5b4d454da796",
+        "NazwaUslugi": "Nocleg (Standard) x 5 dni",
+        "Kwota": 1250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 5,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:10:37.0940886+01:00"
+      },
+      {
+        "Id": "04758826-cc4d-4d32-a812-d3ec76e8d4a0",
+        "NazwaUslugi": "Obiadokolacje x 5 dni",
+        "Kwota": 1190,
+        "CenaJednostkowa": 238,
+        "Ilosc": 5,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:10:37.0941926+01:00"
+      },
+      {
+        "Id": "6fedd338-6f82-4b2f-92c6-9f51940be194",
+        "NazwaUslugi": "Masa\u017C Relaksacyjny",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:17:21.1500016+01:00"
+      },
+      {
+        "Id": "2c869dca-8dcb-4e0b-98b9-15487482fbe9",
+        "NazwaUslugi": "Masa\u017C Relaksacyjny",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:17:23.7434078+01:00"
+      },
+      {
+        "Id": "681b1da5-3793-4522-b15e-74537267204d",
+        "NazwaUslugi": "Peeling Cia\u0142a",
+        "Kwota": 180,
+        "CenaJednostkowa": 180,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:17:26.5986361+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 1250z\u0142 (21:17)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    2002/2025/IND/DOK/11\r\nDATA:     2025-12-29 21:17\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nOliwia Korubylak\r\nPESEL/NIP: 952857237\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nNocleg (Standard) x 5 dni           |     5 |     250,00 |    1250,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         1157,41 PLN\r\nPODATEK VAT:                                          92,59 PLN\r\nDO ZAP\u0141ATY:                                         1250,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T21:17:38.8705169+01:00"
+      },
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 1870z\u0142 (21:17)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    2002/2025/IND/DOK/75\r\nDATA:     2025-12-29 21:17\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nOliwia Korubylak\r\nPESEL/NIP: 952857237\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nPeeling Cia\u0142a                       |     1 |     180,00 |     180,00\r\nMasa\u017C Relaksacyjny                  |     1 |     250,00 |     250,00\r\nMasa\u017C Relaksacyjny                  |     1 |     250,00 |     250,00\r\nObiadokolacje x 5 dni               |     5 |     238,00 |    1190,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         1731,48 PLN\r\nPODATEK VAT:                                         138,52 PLN\r\nDO ZAP\u0141ATY:                                         1870,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T21:17:50.6552221+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 5
+  },
+  {
+    "Id": "9f638deb-9084-4933-8377-394125eaa280",
+    "KodRezerwacji": "4554/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "8582347862",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": true,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": false,
+      "Imie": "Oliwier",
+      "Nazwisko": "Morlan",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2026-01-03T00:00:00",
+    "DataDo": "2026-01-17T00:00:00",
+    "NazwaPakietu": "Pakiet SPA",
+    "NumerPokoju": 301,
+    "StandardPokoju": "Apartament",
+    "IloscOsob": 4,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "c75a3252-7b5a-43f3-8e53-e2edde82c407",
+        "NazwaUslugi": "Nocleg (Apartament) x 14 dni",
+        "Kwota": 8400,
+        "CenaJednostkowa": 600,
+        "Ilosc": 14,
+        "CzyOplacone": false,
+        "DataDodania": "2025-12-29T21:11:18.406344+01:00"
+      },
+      {
+        "Id": "c537503f-9cca-4369-a45f-7acea07a1043",
+        "NazwaUslugi": "Parking (14 dni)",
+        "Kwota": 700,
+        "CenaJednostkowa": 50,
+        "Ilosc": 14,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T21:16:22.2325367+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 14
+  },
+  {
+    "Id": "21c44310-d6f4-44e9-a023-dfe38ad151e7",
+    "KodRezerwacji": "2753/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": false,
+      "Imie": "Kuba",
+      "Nazwisko": "Krokiet",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2026-01-02T00:00:00",
+    "DataDo": "2026-01-03T00:00:00",
+    "NazwaPakietu": "Pakiet Sylwestrowy",
+    "NumerPokoju": 301,
+    "StandardPokoju": "Apartament",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "ANULOWANA",
+    "Rachunek": [
+      {
+        "Id": "fe008990-74dd-4795-b0f9-a3977fb9db76",
+        "NazwaUslugi": "Nocleg (Apartament) x 1 dni",
+        "Kwota": 600,
+        "CenaJednostkowa": 600,
+        "Ilosc": 1,
+        "CzyOplacone": false,
+        "DataDodania": "2025-12-29T21:11:57.2959425+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 1
+  },
+  {
+    "Id": "4ed9e986-dd9f-4de2-8470-6c7e533cbbbb",
+    "KodRezerwacji": "5613/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "84338585757",
+      "NrDowodu": "",
+      "NazwaFirmy": "Sklep",
+      "NIP": "673268",
+      "AdresFirmy": "ko\u015Bciuszki 3, koszalin",
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": true,
+      "Imie": "Maciej",
+      "Nazwisko": "Lurk",
+      "Email": "lurk@onet.pl",
+      "Adres": "wladyslawa 5, koszalin"
+    },
+    "DataOd": "2025-12-30T00:00:00",
+    "DataDo": "2026-01-02T00:00:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 203,
+    "StandardPokoju": "Premium",
+    "IloscOsob": 3,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "bc3a034a-687d-4e4e-b226-7725ea277bb6",
+        "NazwaUslugi": "Nocleg (Premium) x 3 dni",
+        "Kwota": 1200,
+        "CenaJednostkowa": 400,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:13:34.3722506+01:00"
+      },
+      {
+        "Id": "bfb519bf-3a36-4a48-8b8b-7f7807919af8",
+        "NazwaUslugi": "Obiadokolacje x 3 dni",
+        "Kwota": 1071,
+        "CenaJednostkowa": 357,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:13:34.3722571+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 2271z\u0142 (21:15)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    5613/2025/IND/DOK/29\r\nDATA:     2026-01-03 21:15\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nMaciej Lurk\r\nAdres: wladyslawa 5, koszalin\r\nPESEL/NIP: 84338585757\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nObiadokolacje x 3 dni               |     3 |     357,00 |    1071,00\r\nNocleg (Premium) x 3 dni            |     3 |     400,00 |    1200,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         2102,78 PLN\r\nPODATEK VAT:                                         168,22 PLN\r\nDO ZAP\u0141ATY:                                         2271,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:15:31.3900425+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "5fb6b2fe-e5d1-40e5-98be-60b96381ffe9",
+    "KodRezerwacji": "5871/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "",
+      "NrDowodu": "",
+      "NazwaFirmy": "Sklep wielobran\u017Cowy",
+      "NIP": "9518532",
+      "AdresFirmy": "75-054 Koszalin, Wladyslawa 5",
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": true,
+      "Imie": "Patrycja",
+      "Nazwisko": "Orkat",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2026-01-03T00:00:00",
+    "DataDo": "2026-01-04T00:00:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 101,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 1,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "62926305-1503-4fa9-ac92-d513028248f9",
+        "NazwaUslugi": "Nocleg (Standard) x 1 dni",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:13:57.5476517+01:00"
+      },
+      {
+        "Id": "0118d929-1eed-49a6-8a9c-718a7ee2a2ba",
+        "NazwaUslugi": "Obiadokolacje x 1 dni",
+        "Kwota": 119,
+        "CenaJednostkowa": 119,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:13:57.5476617+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 119z\u0142 (22:16)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    5871/2025/IND/DOK/33\r\nDATA:     2025-12-29 22:16\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nPatrycja Orkat\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nObiadokolacje x 1 dni               |     1 |     119,00 |     119,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          110,19 PLN\r\nPODATEK VAT:                                           8,81 PLN\r\nDO ZAP\u0141ATY:                                          119,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T22:16:26.5202289+01:00"
+      },
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 250z\u0142 (23:08)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    5871/2025/IND/DOK/95\r\nDATA:     2025-12-29 23:08\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nPatrycja Orkat\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nNocleg (Standard) x 1 dni           |     1 |     250,00 |     250,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          231,48 PLN\r\nPODATEK VAT:                                          18,52 PLN\r\nDO ZAP\u0141ATY:                                          250,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T23:08:43.7193169+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 1
+  },
+  {
+    "Id": "04a643fe-ceb1-40d6-bf76-036b885916ea",
+    "KodRezerwacji": "1002/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "97685858",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": true,
+      "NrRejestracyjny": "ZKO058238",
+      "MarkaSamochodu": "Hundai",
+      "ChceFakture": false,
+      "Imie": "Oliwia",
+      "Nazwisko": "Janoszek",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2025-12-29T00:00:00",
+    "DataDo": "2026-01-08T00:00:00",
+    "NazwaPakietu": "Pakiet SPA",
+    "NumerPokoju": 302,
+    "StandardPokoju": "Apartament",
+    "IloscOsob": 4,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "a99eddba-f1b1-4fd7-9714-bfe5e3158341",
+        "NazwaUslugi": "Nocleg (Apartament) x 10 dni",
+        "Kwota": 6000,
+        "CenaJednostkowa": 600,
+        "Ilosc": 10,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:19:52.0214605+01:00"
+      },
+      {
+        "Id": "ef34eae3-b67e-4a24-b7ae-39d259b9ce95",
+        "NazwaUslugi": "Parking (10 dni)",
+        "Kwota": 500,
+        "CenaJednostkowa": 50,
+        "Ilosc": 10,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:20:13.3349077+01:00"
+      },
+      {
+        "Id": "b612a09f-4c6c-43eb-8682-389b738f225e",
+        "NazwaUslugi": "Nap\u00F3j Coca-Cola 0.5l",
+        "Kwota": 12,
+        "CenaJednostkowa": 12,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-29T21:20:20.1914566+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "Potwierdzenie Zaliczki - 500z\u0142 (21:20)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: Potwierdzenie Zaliczki\r\nNUMER:    1002/2025/IND/DOK/46\r\nDATA:     2025-12-29 21:20\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nOliwia Janoszek\r\nPESEL/NIP: 97685858\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nWp\u0142ata zaliczki                     |     1 |     500,00 |     500,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          462,96 PLN\r\nPODATEK VAT:                                          37,04 PLN\r\nDO ZAP\u0141ATY:                                          500,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: ZALICZKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T21:20:24.5982129+01:00"
+      },
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 6512z\u0142 (21:20)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    1002/2025/IND/DOK/15\r\nDATA:     2025-12-29 21:20\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nOliwia Janoszek\r\nPESEL/NIP: 97685858\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nNap\u00F3j Coca-Cola 0.5l                |     1 |      12,00 |      12,00\r\nParking (10 dni)                    |    10 |      50,00 |     500,00\r\nNocleg (Apartament) x 10 dni        |    10 |     600,00 |    6000,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         6029,63 PLN\r\nPODATEK VAT:                                         482,37 PLN\r\nDO ZAP\u0141ATY:                                         6512,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-29T21:20:38.271176+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 500,
+    "DlugoscPobytu": 10
+  },
+  {
+    "Id": "394e8d83-43ac-4030-89a3-ca3cba867d68",
+    "KodRezerwacji": "9000/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "862662346",
+      "NrDowodu": "",
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": true,
+      "NrRejestracyjny": "PY36363",
+      "MarkaSamochodu": "BMW",
+      "ChceFakture": false,
+      "Imie": "Marek",
+      "Nazwisko": "Clark",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2025-12-29T00:00:00",
+    "DataDo": "2026-01-01T00:00:00",
+    "NazwaPakietu": "Pakiet Sylwestrowy",
+    "NumerPokoju": 204,
+    "StandardPokoju": "Premium",
+    "IloscOsob": 6,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "4efe6221-384a-44a4-838d-ee0647371d21",
+        "NazwaUslugi": "Nocleg (Premium) x 3 dni",
+        "Kwota": 1200,
+        "CenaJednostkowa": 400,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:38:04.646227+01:00"
+      },
+      {
+        "Id": "f6d31819-248b-4807-87c8-59c2a860ece0",
+        "NazwaUslugi": "Pobyt zwierz\u0119cia",
+        "Kwota": 300,
+        "CenaJednostkowa": 100,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:38:04.6463188+01:00"
+      },
+      {
+        "Id": "38c0ccbb-cd2a-436e-8e32-365d9558a3b7",
+        "NazwaUslugi": "Wstawka powitalna",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:38:04.6463202+01:00"
+      },
+      {
+        "Id": "385ac278-bd1b-4fc8-b172-d213d4d72f9a",
+        "NazwaUslugi": "Nap\u00F3j Coca-Cola 0.5l",
+        "Kwota": 12,
+        "CenaJednostkowa": 12,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:38:49.6128571+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 1662z\u0142 (21:14)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    9000/2025/IND/DOK/61\r\nDATA:     2026-01-03 21:14\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nMarek Clark\r\nPESEL/NIP: 862662346\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nNap\u00F3j Coca-Cola 0.5l                |     1 |      12,00 |      12,00\r\nWstawka powitalna                   |     1 |     150,00 |     150,00\r\nPobyt zwierz\u0119cia                    |     3 |     100,00 |     300,00\r\nNocleg (Premium) x 3 dni            |     3 |     400,00 |    1200,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         1538,89 PLN\r\nPODATEK VAT:                                         123,11 PLN\r\nDO ZAP\u0141ATY:                                         1662,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:14:16.5265924+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "5b4dd45c-b6de-4d36-bed5-d22434ad3524",
+    "KodRezerwacji": "2665/2025/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": true,
+      "NrRejestracyjny": "ZKO52466",
+      "MarkaSamochodu": "Mercedes-Benz",
+      "ChceFakture": false,
+      "Imie": "Ola",
+      "Nazwisko": "Staniak",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2025-12-30T00:00:00",
+    "DataDo": "2026-01-02T00:00:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 103,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": false,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "d38d9cba-cf58-4091-9f8d-a7770cb1555c",
+        "NazwaUslugi": "Nocleg (Standard) x 3 dni",
+        "Kwota": 750,
+        "CenaJednostkowa": 250,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T18:27:50.495951+01:00"
+      },
+      {
+        "Id": "cde21769-fb75-44c9-9e01-de3b30462f6c",
+        "NazwaUslugi": "Parking (3 dni)",
+        "Kwota": 150,
+        "CenaJednostkowa": 50,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:28:53.591196+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 900z\u0142 (21:15)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    2665/2025/IND/DOK/44\r\nDATA:     2026-01-03 21:15\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nOla Staniak\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nParking (3 dni)                     |     3 |      50,00 |     150,00\r\nNocleg (Standard) x 3 dni           |     3 |     250,00 |     750,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          833,33 PLN\r\nPODATEK VAT:                                          66,67 PLN\r\nDO ZAP\u0141ATY:                                          900,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:15:41.2606768+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "be3cdfad-b936-40b8-9947-e383f715052d",
+    "KodRezerwacji": "6057/2025/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": "Sklep",
+      "NIP": "752387",
+      "AdresFirmy": "Koszalin",
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": true,
+      "Imie": "Ola",
+      "Nazwisko": "Kubica",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2025-12-30T00:00:00+01:00",
+    "DataDo": "2025-12-31T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 104,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": false,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "182063b1-32f4-4fe5-bfe1-fbfd86526b0d",
+        "NazwaUslugi": "Nocleg (Standard) x 1 dni",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T18:28:11.0246557+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 250z\u0142 (21:13)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    6057/2025/IND/DOK/91\r\nDATA:     2026-01-03 21:13\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nOla Kubica\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nNocleg (Standard) x 1 dni           |     1 |     250,00 |     250,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          231,48 PLN\r\nPODATEK VAT:                                          18,52 PLN\r\nDO ZAP\u0141ATY:                                          250,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:13:13.7791555+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 1
+  },
+  {
+    "Id": "c188f027-4ced-44da-8608-b2767c2e0ed3",
+    "KodRezerwacji": "6075/2025/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": false,
+      "Imie": "Olieksy",
+      "Nazwisko": "Stav",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2025-12-30T00:00:00+01:00",
+    "DataDo": "2025-12-31T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 105,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "c60df06c-1470-4ee6-be89-63d00662af51",
+        "NazwaUslugi": "Nocleg (Standard) x 1 dni",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T18:49:30.1748053+01:00"
+      },
+      {
+        "Id": "a52e626b-7ec7-487a-8a0d-d962cfcd99c6",
+        "NazwaUslugi": "Obiadokolacje x 1 dni",
+        "Kwota": 238,
+        "CenaJednostkowa": 238,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T18:49:30.1748632+01:00"
+      },
+      {
+        "Id": "373d5f17-300b-4979-994b-26a0c4e45af5",
+        "NazwaUslugi": "Pobyt zwierz\u0119cia",
+        "Kwota": 100,
+        "CenaJednostkowa": 100,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T18:49:30.1748642+01:00"
+      },
+      {
+        "Id": "73060b48-aa6d-4b2f-b0fd-c60e9193324d",
+        "NazwaUslugi": "Wstawka powitalna (wino/owoce)",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T18:49:30.174865+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 738z\u0142 (21:13)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    6075/2025/IND/DOK/85\r\nDATA:     2026-01-03 21:13\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nOlieksy Stav\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nWstawka powitalna (wino/owoce)      |     1 |     150,00 |     150,00\r\nPobyt zwierz\u0119cia                    |     1 |     100,00 |     100,00\r\nObiadokolacje x 1 dni               |     1 |     238,00 |     238,00\r\nNocleg (Standard) x 1 dni           |     1 |     250,00 |     250,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          683,33 PLN\r\nPODATEK VAT:                                          54,67 PLN\r\nDO ZAP\u0141ATY:                                          738,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:13:31.4130814+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 1
+  },
+  {
+    "Id": "52fbea69-508d-4f47-a097-b04a792970be",
+    "KodRezerwacji": "7629/2025/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": "Sklep",
+      "NIP": "523767",
+      "AdresFirmy": "Koszalin",
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": true,
+      "Imie": "Oliwia",
+      "Nazwisko": "Colba",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2025-12-30T00:00:00+01:00",
+    "DataDo": "2026-01-04T00:00:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 106,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 1,
+    "Sniadanie": false,
+    "Obiadokolacja": false,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "ba72a4f9-2e1f-4141-a90e-829b4e385323",
+        "NazwaUslugi": "Nocleg (Standard) x 5 dni",
+        "Kwota": 1250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 5,
+        "CzyOplacone": false,
+        "DataDodania": "2025-12-30T18:50:06.39587+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 5
+  },
+  {
+    "Id": "70ebf151-0a63-4ad6-8f4f-2cbf3b16b0e7",
+    "KodRezerwacji": "1846/2025/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": "Sklep",
+      "NIP": "8893747",
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": true,
+      "Imie": "Mariusz",
+      "Nazwisko": "Paczkowski",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-05T00:00:00+01:00",
+    "DataDo": "2026-01-09T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 201,
+    "StandardPokoju": "Premium",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": false,
+    "Status": "REZERWACJA",
+    "Rachunek": [
+      {
+        "Id": "5ff72139-a8ee-4ee5-a1ab-370429a795d1",
+        "NazwaUslugi": "Peeling Cia\u0142a",
+        "Kwota": 180,
+        "CenaJednostkowa": 180,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2026-01-03T22:31:03.5088349+01:00"
+      },
+      {
+        "Id": "c94f105b-1b94-4fc6-82af-8ecd127b219e",
+        "NazwaUslugi": "Przed\u0142u\u017Cona doba",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2026-01-03T23:21:51.7974736+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 180z\u0142 (22:31)",
+        "TrescDokumentu": "====================================================================\r\n                  HOTEL BETASI PRO *****\r\n         Ul. Wypoczynkowa 1, 81-000 Sopot, Polska\r\n     NIP: 585-000-11-22 | REGON: 123456789 | BDO: 000123456\r\n        Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n                www.hotel-betasi-pro.pl\r\n====================================================================\r\nDOKUMENT:   FAKTURA VAT\r\nNUMER:      1846/2025/IND/DOK/884\r\nMIEJSCE:    Sopot\r\nDATA WYST.: 2026-01-03\r\nDATA SPRZ.: 2026-01-03 22:31\r\n--------------------------------------------------------------------\r\nSPRZEDAWCA:\r\nHotel Betasi Pro Sp. z o.o.\r\nUl. Wypoczynkowa 1, 81-000 Sopot\r\nKonto: 12 1020 3040 0000 1111 2222 3333 (PKO BP)\r\n \r\nNABYWCA:\r\nMariusz Paczkowski\r\nNIP: 8893747\r\n--------------------------------------------------------------------\r\nSZCZEG\u00D3\u0141Y TRANSAKCJI:\r\nRezerwacja: 1846/2025/IND  |  Pok\u00F3j: Standard\r\nTermin:     05.01.2026 - 09.01.2026 (4 d\u00F3b)\r\n--------------------------------------------------------------------\r\nNAZWA TOWARU / US\u0141UGI            | IL. |  JM |      CENA |   WARTO\u015A\u0106\r\n--------------------------------------------------------------------\r\nPeeling Cia\u0142a                    |   1 | szt |    180,00 |    180,00\r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n--------------------------------------------------------------------\r\nROZLICZENIE PODATKU VAT (PLN):\r\nSTAWKA          | NETTO           | KWOTA VAT       | BRUTTO      \r\nPodst. 23%      | 146,34          | 33,66           | 180,00      \r\n--------------------------------------------------------------------\r\nDO ZAP\u0141ATY:             180,00 PLN\r\nS\u0141OWNIE:                (tu wstaw funkcj\u0119 zamiany na s\u0142owa)\r\nMETODA P\u0141ATNO\u015ACI:       KARTA / GOT\u00D3WKA\r\nSTATUS P\u0141ATNO\u015ACI:       OP\u0141ACONO\r\n\n\n\r\nUWAGI I KLAUZULE:\r\nDokument wystawiony elektronicznie na podstawie artyku\u0142u 106n ustawy\no VAT.\r\nNiniejsza faktura stanowi tytu\u0142 wykonawczy.\r\n\n\r\n       .........................           .........................\r\n           Osoba upowa\u017Cniona                   Osoba upowa\u017Cniona\r\n              do odbioru                         do wystawienia\r\n====================================================================\r\nWygenerowano z systemu Hotel Betasi Pro: 3.01.2026 22:31:04\r\n",
+        "Data": "2026-01-03T22:31:04.8593123+01:00"
+      },
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 150z\u0142 (23:21)",
+        "TrescDokumentu": "====================================================================\r\n                  HOTEL BETASI PRO *****\r\n         Ul. Wypoczynkowa 1, 81-000 Sopot, Polska\r\n     NIP: 585-000-11-22 | REGON: 123456789 | BDO: 000123456\r\n        Tel: \u002B48 58 555 00 00 | recepcja@mountainpeakresort.pl\r\n                www.hotel-betasi-pro.pl\r\n====================================================================\r\nDOKUMENT:   FAKTURA VAT\r\nNUMER:      1846/2025/IND/DOK/602\r\nMIEJSCE:    Sopot\r\nDATA WYST.: 2026-01-03\r\nDATA SPRZ.: 2026-01-03 23:21\r\n--------------------------------------------------------------------\r\nSPRZEDAWCA:\r\nHotel Betasi Pro Sp. z o.o.\r\nUl. Wypoczynkowa 1, 81-000 Sopot\r\nKonto: 12 1020 3040 0000 1111 2222 3333 (PKO BP)\r\n \r\nNABYWCA:\r\nMariusz Paczkowski\r\nNIP: 8893747\r\n--------------------------------------------------------------------\r\nSZCZEG\u00D3\u0141Y TRANSAKCJI:\r\nRezerwacja: 1846/2025/IND  |  Pok\u00F3j: Standard\r\nTermin:     05.01.2026 - 09.01.2026 (4 d\u00F3b)\r\n--------------------------------------------------------------------\r\nNAZWA TOWARU / US\u0141UGI            | IL. |  JM |      CENA |   WARTO\u015A\u0106\r\n--------------------------------------------------------------------\r\nPrzed\u0142u\u017Cona doba                 |   1 | szt |    150,00 |    150,00\r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n--------------------------------------------------------------------\r\nROZLICZENIE PODATKU VAT (PLN):\r\nSTAWKA          | NETTO           | KWOTA VAT       | BRUTTO      \r\nPodst. 23%      | 121,95          | 28,05           | 150,00      \r\n--------------------------------------------------------------------\r\nDO ZAP\u0141ATY:             150,00 PLN\r\nS\u0141OWNIE:                (tu wstaw funkcj\u0119 zamiany na s\u0142owa)\r\nMETODA P\u0141ATNO\u015ACI:       KARTA / GOT\u00D3WKA\r\nSTATUS P\u0141ATNO\u015ACI:       OP\u0141ACONO\r\n\n\n\r\nUWAGI I KLAUZULE:\r\nDokument wystawiony elektronicznie na podstawie artyku\u0142u 106n ustawy\no VAT.\r\nNiniejsza faktura stanowi tytu\u0142 wykonawczy.\r\n\n\r\n       .........................           .........................\r\n           Osoba upowa\u017Cniona                   Osoba upowa\u017Cniona\r\n              do odbioru                         do wystawienia\r\n====================================================================\r\nWygenerowano z systemu Hotel Betasi Pro: 3.01.2026 23:21:53\r\n",
+        "Data": "2026-01-03T23:21:53.8636648+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 4
+  },
+  {
+    "Id": "fb620579-ba21-4bc8-aeb8-34fbe4a565f4",
+    "KodRezerwacji": "3167/2025/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": "Sklep",
+      "NIP": "8468658",
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": true,
+      "Imie": "Mariusz",
+      "Nazwisko": "Paczkowski V2",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2025-12-30T00:00:00+01:00",
+    "DataDo": "2025-12-31T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 107,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "254cc96e-bee7-4e57-bfed-80bfad08d3a3",
+        "NazwaUslugi": "Nocleg (Standard) x 1 dni",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T20:21:03.4839736+01:00"
+      },
+      {
+        "Id": "85dd3341-54ab-4ce7-a30b-b038530f46d4",
+        "NazwaUslugi": "Obiadokolacje x 1 dni",
+        "Kwota": 238,
+        "CenaJednostkowa": 238,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T20:21:03.4840274+01:00"
+      },
+      {
+        "Id": "4effc338-1472-42e4-adf1-cdc1b801be5e",
+        "NazwaUslugi": "Pobyt zwierz\u0119cia",
+        "Kwota": 100,
+        "CenaJednostkowa": 100,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T20:21:03.4840288+01:00"
+      },
+      {
+        "Id": "f9195edd-17e8-44de-b336-6368e657178a",
+        "NazwaUslugi": "Wstawka powitalna (wino/owoce)",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T20:21:03.4840301+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 250z\u0142 (20:35)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    3167/2025/IND/DOK/57\r\nDATA:     2025-12-30 20:35\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nMariusz Paczkowski V2\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nNocleg (Standard) x 1 dni           |     1 |     250,00 |     250,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          231,48 PLN\r\nPODATEK VAT:                                          18,52 PLN\r\nDO ZAP\u0141ATY:                                          250,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2025-12-30T20:35:47.6236742+01:00"
+      },
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 488z\u0142 (21:13)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    3167/2025/IND/DOK/8\r\nDATA:     2026-01-03 21:13\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nMariusz Paczkowski V2\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nWstawka powitalna (wino/owoce)      |     1 |     150,00 |     150,00\r\nPobyt zwierz\u0119cia                    |     1 |     100,00 |     100,00\r\nObiadokolacje x 1 dni               |     1 |     238,00 |     238,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          451,85 PLN\r\nPODATEK VAT:                                          36,15 PLN\r\nDO ZAP\u0141ATY:                                          488,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:13:48.4603576+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 1
+  },
+  {
+    "Id": "e7c4cbaa-8df6-4c87-82c2-e98872b46d19",
+    "KodRezerwacji": "4078/2025/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": "Sklep",
+      "NIP": "8567475",
+      "AdresFirmy": "Koszalin",
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": true,
+      "Imie": "Karolina",
+      "Nazwisko": "Bogacz",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-05T00:00:00+01:00",
+    "DataDo": "2026-01-10T00:00:00+01:00",
+    "NazwaPakietu": "Pakiet Sylwestrowy",
+    "NumerPokoju": 101,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "REZERWACJA",
+    "Rachunek": [
+      {
+        "Id": "f9d49850-534f-4504-b99c-68484c493f3f",
+        "NazwaUslugi": "Nocleg (Standard) x 5 dni",
+        "Kwota": 1250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 5,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:15:50.1276537+01:00"
+      },
+      {
+        "Id": "871619b2-e8a3-4647-8850-0c57fb333662",
+        "NazwaUslugi": "Masa\u017C Relaksacyjny",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2026-01-03T22:08:34.8561664+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 1250z\u0142 (22:00)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    4078/2025/IND/DOK/84\r\nDATA:     2026-01-03 22:00\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nKarolina Bogacz\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nNocleg (Standard) x 5 dni           |     5 |     250,00 |    1250,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         1157,41 PLN\r\nPODATEK VAT:                                          92,59 PLN\r\nDO ZAP\u0141ATY:                                         1250,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T22:00:04.0970146+01:00"
+      },
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 250z\u0142 (22:08)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n               Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                    NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    4078/2025/IND/DOK/68\r\nDATA:     2026-01-03 22:08\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nKarolina Bogacz\r\nNIP: 8567475\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nMasa\u017C Relaksacyjny                  |     1 |     250,00 |     250,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          203,25 PLN\r\nPODATEK VAT:                                          46,75 PLN\r\nDO ZAP\u0141ATY:                                          250,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T22:08:41.2996396+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 5
+  },
+  {
+    "Id": "9f09cfe3-302b-4f7b-b9e6-0951acfb449d",
+    "KodRezerwacji": "5996/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "62436232",
+      "NrDowodu": null,
+      "NazwaFirmy": "Sklep",
+      "NIP": "5712875",
+      "AdresFirmy": "Koszalin",
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": true,
+      "Imie": "Pawel",
+      "Nazwisko": "Orkisz",
+      "Email": "orkisz@wp.pl",
+      "Adres": "Koszalin"
+    },
+    "DataOd": "2026-01-02T00:00:00+01:00",
+    "DataDo": "2026-01-08T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 103,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "ceceec56-06e9-4099-837e-20229f44754d",
+        "NazwaUslugi": "Nocleg (Standard) x 6 dni",
+        "Kwota": 1500,
+        "CenaJednostkowa": 250,
+        "Ilosc": 6,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:23:10.0442858+01:00"
+      },
+      {
+        "Id": "6efd3dde-6067-4a1d-b6cb-45ed6d759410",
+        "NazwaUslugi": "Obiadokolacje x 6 dni",
+        "Kwota": 1428,
+        "CenaJednostkowa": 238,
+        "Ilosc": 6,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:23:10.0443437+01:00"
+      },
+      {
+        "Id": "563237b4-ad8f-49e9-aba0-3dbe2a27c14f",
+        "NazwaUslugi": "Pobyt zwierz\u0119cia",
+        "Kwota": 600,
+        "CenaJednostkowa": 100,
+        "Ilosc": 6,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:23:10.0443465+01:00"
+      },
+      {
+        "Id": "e6a021d3-ff4b-4a59-9f48-7c3056234e35",
+        "NazwaUslugi": "Wstawka powitalna",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T21:23:10.0443473+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 150z\u0142 (22:03)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    5996/2025/IND/DOK/20\r\nDATA:     2026-01-03 22:03\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nPawel Orkisz\r\nAdres: Koszalin\r\nPESEL/NIP: 62436232\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nWstawka powitalna                   |     1 |     150,00 |     150,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          138,89 PLN\r\nPODATEK VAT:                                          11,11 PLN\r\nDO ZAP\u0141ATY:                                          150,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T22:03:17.1199723+01:00"
+      },
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 600z\u0142 (22:08)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n               Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                    NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    5996/2025/IND/DOK/96\r\nDATA:     2026-01-03 22:08\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nPawel Orkisz\r\nAdres: Koszalin\r\nNIP: 5712875\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nPobyt zwierz\u0119cia                    |     6 |     100,00 |     600,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          487,80 PLN\r\nPODATEK VAT:                                         112,20 PLN\r\nDO ZAP\u0141ATY:                                          600,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T22:08:10.3837723+01:00"
+      },
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 1428z\u0142 (22:19)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n               Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                    NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n                  www.hotel-betasi-pro.pl\r\n----------------------------------------------------------------\r\nKONTO BANKOWE (PLN):\r\nPL 12 1020 3040 0000 1111 2222 3333 (PKO BP)\r\n================================================================\r\nDOKUMENT: FAKTURA VAT\r\nNUMER:    5996/2025/IND/DOK/69\r\nMIEJSCE:  Sopot, dnia 2026-01-03\r\nDATA SP.: 2026-01-03 22:19 (Data sprzeda\u017Cy)\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nPawel Orkisz\r\nAdres: Koszalin\r\nNIP: 5712875\r\n \r\nSZCZEG\u00D3\u0141Y POBYTU:\r\nRezerwacja: 5996/2025/IND\r\nTermin:     02.01.2026 - 08.01.2026\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nObiadokolacje x 6 dni               |     6 |     238,00 |    1428,00\r\n\r\n\r\n\r\n\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                         1160,98 PLN\r\nPODATEK VAT:                                         267,02 PLN\r\n              --------------------------------------------------\r\nDO ZAP\u0141ATY:                                         1428,00 PLN\r\n              ==================================================\r\nS\u0141OWNIE:      (Tu mo\u017Cna doda\u0107 funkcj\u0119 kwoty s\u0142ownie)\r\n \r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\nSTATUS:           OP\u0141ACONO\r\n----------------------------------------------------------------\r\n \r\n \r\nUWAGI:\r\nNiniejszy dokument jest potwierdzeniem wykonania us\u0142ugi hotelowej.\r\nDokument wystawiony elektronicznie, nie wymaga piecz\u0105tki.\r\n \r\n \r\n \r\n ...........................       ...........................\r\n      Podpis Odbiorcy                   Podpis Wystawcy\r\n                                          (Recepcja)\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n                 Wydrukowano: 3.01.2026 22:19:39\r\n",
+        "Data": "2026-01-03T22:19:39.6763558+01:00"
+      },
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 1500z\u0142 (22:23)",
+        "TrescDokumentu": "====================================================================\r\n                  HOTEL BETASI PRO *****\r\n         Ul. Wypoczynkowa 1, 81-000 Sopot, Polska\r\n     NIP: 585-000-11-22 | REGON: 123456789 | BDO: 000123456\r\n        Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n                www.hotel-betasi-pro.pl\r\n====================================================================\r\nDOKUMENT:   FAKTURA VAT\r\nNUMER:      5996/2025/IND/DOK/48\r\nMIEJSCE:    Sopot\r\nDATA WYST.: 2026-01-03\r\nDATA SPRZ.: 2026-01-03 22:23\r\n--------------------------------------------------------------------\r\nSPRZEDAWCA:\r\nHotel Betasi Pro Sp. z o.o.\r\nUl. Wypoczynkowa 1, 81-000 Sopot\r\nKonto: 12 1020 3040 0000 1111 2222 3333 (PKO BP)\r\n \r\nNABYWCA:\r\nPawel Orkisz\r\nAdres: Koszalin\r\nNIP: 5712875\r\n--------------------------------------------------------------------\r\nSZCZEG\u00D3\u0141Y TRANSAKCJI:\r\nRezerwacja: 5996/2025/IND  |  Pok\u00F3j: Standard\r\nTermin:     02.01.2026 - 08.01.2026 (6 d\u00F3b)\r\n--------------------------------------------------------------------\r\nNAZWA TOWARU / US\u0141UGI            | IL. |  JM |      CENA |   WARTO\u015A\u0106\r\n--------------------------------------------------------------------\r\nNocleg (Standard) x 6 dni        |   6 | szt |    250,00 |   1500,00\r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n--------------------------------------------------------------------\r\nROZLICZENIE PODATKU VAT (PLN):\r\nSTAWKA          | NETTO           | KWOTA VAT       | BRUTTO      \r\nPodst. 23%      | 1219,51         | 280,49          | 1500,00     \r\n--------------------------------------------------------------------\r\nDO ZAP\u0141ATY:             1500,00 PLN\r\nS\u0141OWNIE:                (tu wstaw funkcj\u0119 zamiany na s\u0142owa)\r\nMETODA P\u0141ATNO\u015ACI:       KARTA / GOT\u00D3WKA\r\nSTATUS P\u0141ATNO\u015ACI:       OP\u0141ACONO\r\n\n\n\r\nUWAGI I KLAUZULE:\r\nDokument wystawiony elektronicznie na podstawie art. 106n ustawy o VAT.\r\nNiniejsza faktura stanowi tytu\u0142 wykonawczy.\r\n\n\r\n       .........................           .........................\r\n           Osoba upowa\u017Cniona                   Osoba upowa\u017Cniona\r\n            do odbioru (Gosc)                 do wystawienia (Recepcja)\r\n====================================================================\r\nWygenerowano z systemu Hotel Betasi Pro: 3.01.2026 22:23:56\r\n",
+        "Data": "2026-01-03T22:23:56.7565293+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 6
+  },
+  {
+    "Id": "ff880c2b-6123-492c-8f15-a9587112786d",
+    "KodRezerwacji": "7188/2025/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": "Sklep",
+      "NIP": "36574575",
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": true,
+      "Imie": "Martyna",
+      "Nazwisko": "Stasiak",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2025-12-29T00:00:00+01:00",
+    "DataDo": "2026-01-01T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 108,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": false,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "cb4965be-50fd-4cd1-b24f-5787c1ff6629",
+        "NazwaUslugi": "Nocleg (Standard) x 3 dni",
+        "Kwota": 750,
+        "CenaJednostkowa": 250,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T22:08:52.5313432+01:00"
+      },
+      {
+        "Id": "db13bb55-ebaa-4105-9f59-c8a4859473e2",
+        "NazwaUslugi": "Pobyt zwierz\u0119cia",
+        "Kwota": 300,
+        "CenaJednostkowa": 100,
+        "Ilosc": 3,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T22:08:52.5314061+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 1050z\u0142 (21:14)",
+        "TrescDokumentu": "================================================================\r\n                  HOTEL BETASI PRO *****\r\n              Ul. Wypoczynkowa 1, 81-000 Sopot\r\n                   NIP: 585-000-11-22\r\n             Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n================================================================\r\nDOKUMENT: PARAGON FISKALNY\r\nNUMER:    7188/2025/IND/DOK/5\r\nDATA:     2026-01-03 21:14\r\n----------------------------------------------------------------\r\nNABYWCA:\r\nMartyna Stasiak\r\n----------------------------------------------------------------\r\nNAZWA                               | ILO\u015A\u0106 | CENA JEDN. |    WARTO\u015A\u0106\r\n----------------------------------------------------------------\r\nPobyt zwierz\u0119cia                    |     3 |     100,00 |     300,00\r\nNocleg (Standard) x 3 dni           |     3 |     250,00 |     750,00\r\n----------------------------------------------------------------\r\nSUMA NETTO:                                          972,22 PLN\r\nPODATEK VAT:                                          77,78 PLN\r\nDO ZAP\u0141ATY:                                         1050,00 PLN\r\n----------------------------------------------------------------\r\nMETODA P\u0141ATNO\u015ACI: KARTA / GOT\u00D3WKA\r\n================================================================\r\n             Dzi\u0119kujemy za pobyt i zapraszamy ponownie!\r\n",
+        "Data": "2026-01-03T21:14:32.2997895+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "a9846c5e-19e5-485e-8429-74942d0740ae",
+    "KodRezerwacji": "2288/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "57238365",
+      "NrDowodu": null,
+      "NazwaFirmy": "Sklep wielobran\u017Cowy KRAK",
+      "NIP": "8769870532",
+      "AdresFirmy": "87-004 Koszalin, W\u0142adys\u0142awa 5",
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": true,
+      "Imie": "Hania",
+      "Nazwisko": "Lak",
+      "Email": "hania.lak@wp.pl",
+      "Adres": "76-024 \u015Awieszyno, Mierzym"
+    },
+    "DataOd": "2025-12-31T00:00:00+01:00",
+    "DataDo": "2026-01-04T00:00:00+01:00",
+    "NazwaPakietu": "Pakiet SPA",
+    "NumerPokoju": 303,
+    "StandardPokoju": "Apartament",
+    "IloscOsob": 4,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "d5541972-2f5a-46a5-a50e-f53d6bb96908",
+        "NazwaUslugi": "Nocleg (Apartament) x 4 dni",
+        "Kwota": 2400,
+        "CenaJednostkowa": 600,
+        "Ilosc": 4,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T23:44:01.3519985+01:00"
+      },
+      {
+        "Id": "d521c46d-17c6-4c13-a673-a4e10f3c0c5a",
+        "NazwaUslugi": "Pobyt zwierz\u0119cia",
+        "Kwota": 400,
+        "CenaJednostkowa": 100,
+        "Ilosc": 4,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T23:44:01.3520539+01:00"
+      },
+      {
+        "Id": "71c90ec3-53cc-4a33-b4ab-5f6210dd8ac6",
+        "NazwaUslugi": "Wstawka powitalna",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T23:44:01.3520547+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 4
+  },
+  {
+    "Id": "fa124759-e921-463e-bc7b-19f1e485fa07",
+    "KodRezerwacji": "3864/2025/IND",
+    "GoscGlowny": {
+      "Pesel": "-",
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": "",
+      "MarkaSamochodu": "",
+      "ChceFakture": false,
+      "Imie": "Nina",
+      "Nazwisko": "\u00F6lrich",
+      "Email": "nina@interia.pl",
+      "Adres": "Berlin, Niemcy"
+    },
+    "DataOd": "2025-12-31T00:00:00+01:00",
+    "DataDo": "2026-01-12T00:00:00+01:00",
+    "NazwaPakietu": "Pakiet Sylwestrowy",
+    "NumerPokoju": 105,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "f46c4b36-8299-4c19-8b10-006438abc780",
+        "NazwaUslugi": "Nocleg (Standard) x 12 dni",
+        "Kwota": 3000,
+        "CenaJednostkowa": 250,
+        "Ilosc": 12,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T22:46:55.7537059+01:00"
+      },
+      {
+        "Id": "8deee729-6e4d-42ab-aeee-cb618c150a2e",
+        "NazwaUslugi": "Wstawka powitalna",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2025-12-30T22:46:55.7537179+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "FAKTURA VAT - 3150z\u0142 (22:28)",
+        "TrescDokumentu": "====================================================================\r\n                  HOTEL BETASI PRO *****\r\n         Ul. Wypoczynkowa 1, 81-000 Sopot, Polska\r\n     NIP: 585-000-11-22 | REGON: 123456789 | BDO: 000123456\r\n        Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n                www.hotel-betasi-pro.pl\r\n====================================================================\r\nDOKUMENT:   FAKTURA VAT\r\nNUMER:      3864/2025/IND/DOK/73\r\nMIEJSCE:    Sopot\r\nDATA WYST.: 2026-01-03\r\nDATA SPRZ.: 2026-01-03 22:28\r\n--------------------------------------------------------------------\r\nSPRZEDAWCA:\r\nHotel Betasi Pro Sp. z o.o.\r\nUl. Wypoczynkowa 1, 81-000 Sopot\r\nKonto: 12 1020 3040 0000 1111 2222 3333 (PKO BP)\r\n \r\nNABYWCA:\r\nNina \u00F6lrich\r\nAdres: Berlin, Niemcy\r\nPESEL: -\r\n--------------------------------------------------------------------\r\nSZCZEG\u00D3\u0141Y TRANSAKCJI:\r\nRezerwacja: 3864/2025/IND  |  Pok\u00F3j: Standard\r\nTermin:     31.12.2025 - 12.01.2026 (12 d\u00F3b)\r\n--------------------------------------------------------------------\r\nNAZWA TOWARU / US\u0141UGI            | IL. |  JM |      CENA |   WARTO\u015A\u0106\r\n--------------------------------------------------------------------\r\nWstawka powitalna                |   1 | szt |    150,00 |    150,00\r\nNocleg (Standard) x 12 dni       |  12 | szt |    250,00 |   3000,00\r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n--------------------------------------------------------------------\r\nROZLICZENIE PODATKU VAT (PLN):\r\nSTAWKA          | NETTO           | KWOTA VAT       | BRUTTO      \r\nPodst. 23%      | 2560,98         | 589,02          | 3150,00     \r\n--------------------------------------------------------------------\r\nDO ZAP\u0141ATY:             3150,00 PLN\r\nS\u0141OWNIE:                (tu wstaw funkcj\u0119 zamiany na s\u0142owa)\r\nMETODA P\u0141ATNO\u015ACI:       KARTA / GOT\u00D3WKA\r\nSTATUS P\u0141ATNO\u015ACI:       OP\u0141ACONO\r\n\n\n\r\nUWAGI I KLAUZULE:\r\nDokument wystawiony elektronicznie na podstawie artyku\u0142u 106n ustawy \n o VAT.\r\nNiniejsza faktura stanowi tytu\u0142 wykonawczy.\r\n\n\r\n       .........................           .........................\r\n           Osoba upowa\u017Cniona                   Osoba upowa\u017Cniona\r\n              do odbioru                         do wystawienia\r\n====================================================================\r\nWygenerowano z systemu Hotel Betasi Pro: 3.01.2026 22:28:46\r\n",
+        "Data": "2026-01-03T22:28:46.7087713+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 12
+  },
+  {
+    "Id": "5fcc55c8-dc8f-48d0-adc4-d4d20560f3d7",
+    "KodRezerwacji": "2530/2026/IND",
+    "GoscGlowny": {
+      "Pesel": "",
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": false,
+      "Imie": "Olek",
+      "Nazwisko": "Stasiak",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-03T00:00:00+01:00",
+    "DataDo": "2026-01-10T00:00:00+01:00",
+    "NazwaPakietu": "Pakiet Sylwestrowy",
+    "NumerPokoju": 202,
+    "StandardPokoju": "Premium",
+    "IloscOsob": 3,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "7960c686-d18e-4640-bec5-bf0a2ba56ad8",
+        "NazwaUslugi": "Nocleg (Premium) x 7 dni",
+        "Kwota": 2800,
+        "CenaJednostkowa": 400,
+        "Ilosc": 7,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T21:21:10.0676281+01:00"
+      },
+      {
+        "Id": "d24c2896-0590-4989-a017-31ccfeb04dbd",
+        "NazwaUslugi": "Pobyt zwierz\u0119cia",
+        "Kwota": 700,
+        "CenaJednostkowa": 100,
+        "Ilosc": 7,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T21:21:10.0676832+01:00"
+      },
+      {
+        "Id": "2d10e2c3-126f-405d-9b9e-2bef86cc4fc8",
+        "NazwaUslugi": "Wstawka powitalna",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T21:21:10.067684+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 7
+  },
+  {
+    "Id": "4725f838-caf5-4967-8aa3-f481e9fe7fcd",
+    "KodRezerwacji": "2404/2026/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": false,
+      "Imie": "Kura",
+      "Nazwisko": "Co\u015B",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-03T00:00:00+01:00",
+    "DataDo": "2026-01-06T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 107,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": false,
+    "Status": "WYMELDOWANY",
+    "Rachunek": [
+      {
+        "Id": "7a3604af-5b0d-4fe4-a990-d9474fc7de4b",
+        "NazwaUslugi": "Nocleg (Standard) x 3 dni",
+        "Kwota": 750,
+        "CenaJednostkowa": 250,
+        "Ilosc": 3,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-04T00:36:07.0455607+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 750z\u0142 (22:30)",
+        "TrescDokumentu": "====================================================================\r\n                  HOTEL BETASI PRO *****\r\n         Ul. Wypoczynkowa 1, 81-000 Sopot, Polska\r\n     NIP: 585-000-11-22 | REGON: 123456789 | BDO: 000123456\r\n        Tel: \u002B48 58 555 00 00 | recepcja@betasi.pl\r\n                www.hotel-betasi-pro.pl\r\n====================================================================\r\nDOKUMENT:   PARAGON FISKALNY\r\nNUMER:      2404/2026/IND/DOK/573\r\nMIEJSCE:    Sopot\r\nDATA WYST.: 2026-01-03\r\nDATA SPRZ.: 2026-01-03 22:30\r\n--------------------------------------------------------------------\r\nSPRZEDAWCA:\r\nHotel Betasi Pro Sp. z o.o.\r\nUl. Wypoczynkowa 1, 81-000 Sopot\r\nKonto: 12 1020 3040 0000 1111 2222 3333 (PKO BP)\r\n \r\nNABYWCA:\r\nKura Co\u015B\r\n--------------------------------------------------------------------\r\nSZCZEG\u00D3\u0141Y TRANSAKCJI:\r\nRezerwacja: 2404/2026/IND  |  Pok\u00F3j: Standard\r\nTermin:     03.01.2026 - 06.01.2026 (3 d\u00F3b)\r\n--------------------------------------------------------------------\r\nNAZWA TOWARU / US\u0141UGI            | IL. |  JM |      CENA |   WARTO\u015A\u0106\r\n--------------------------------------------------------------------\r\nNocleg (Standard) x 3 dni        |   3 | szt |    250,00 |    750,00\r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n--------------------------------------------------------------------\r\nROZLICZENIE PODATKU VAT (PLN):\r\nSTAWKA          | NETTO           | KWOTA VAT       | BRUTTO      \r\nPodst. 23%      | 609,76          | 140,24          | 750,00      \r\n--------------------------------------------------------------------\r\nDO ZAP\u0141ATY:             750,00 PLN\r\nS\u0141OWNIE:                (tu wstaw funkcj\u0119 zamiany na s\u0142owa)\r\nMETODA P\u0141ATNO\u015ACI:       KARTA / GOT\u00D3WKA\r\nSTATUS P\u0141ATNO\u015ACI:       OP\u0141ACONO\r\n\n\n\r\nUWAGI I KLAUZULE:\r\nDokument wystawiony elektronicznie na podstawie artyku\u0142u 106n ustawy\no VAT.\r\nNiniejsza faktura stanowi tytu\u0142 wykonawczy.\r\n\n\r\n       .........................           .........................\r\n           Osoba upowa\u017Cniona                   Osoba upowa\u017Cniona\r\n              do odbioru                         do wystawienia\r\n====================================================================\r\nWygenerowano z systemu Hotel Betasi Pro: 3.01.2026 22:30:32\r\n",
+        "Data": "2026-01-03T22:30:32.5094126+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "b1c3f270-89e4-44ef-b92e-812bc1ce7dba",
+    "KodRezerwacji": "2575/2026/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": false,
+      "Imie": "Oliwier",
+      "Nazwisko": "Test",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-03T00:00:00+01:00",
+    "DataDo": "2026-01-05T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 108,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 1,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "ANULOWANA",
+    "Rachunek": [
+      {
+        "Id": "2f6000eb-157a-420b-9ef9-60c69a9cd454",
+        "NazwaUslugi": "Nocleg (Standard) x 2 dni",
+        "Kwota": 500,
+        "CenaJednostkowa": 250,
+        "Ilosc": 2,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T21:50:44.2795856+01:00"
+      },
+      {
+        "Id": "b7ec28d0-ba29-4595-91a5-9b88f450750a",
+        "NazwaUslugi": "Obiadokolacje x 2 dni",
+        "Kwota": 238,
+        "CenaJednostkowa": 119,
+        "Ilosc": 2,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T21:50:44.2796394+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 2
+  },
+  {
+    "Id": "a9eb667f-1ee9-44de-ab83-2745f9d7e7d9",
+    "KodRezerwacji": "3443/2026/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": false,
+      "Imie": "Monika",
+      "Nazwisko": "Korba",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-02T00:00:00+01:00",
+    "DataDo": "2026-01-03T00:00:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 108,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": false,
+    "Status": "ANULOWANA",
+    "Rachunek": [
+      {
+        "Id": "8f98837b-0464-40f9-888e-57e6061f6843",
+        "NazwaUslugi": "Nocleg (Standard) x 1 dni",
+        "Kwota": 250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 1,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T21:52:59.277359+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 1
+  },
+  {
+    "Id": "7717a67c-8167-409b-a6b6-129c2c72daf0",
+    "KodRezerwacji": "5499/2026/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": false,
+      "Imie": "Oliwia",
+      "Nazwisko": "Miler",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-06T00:00:00+01:00",
+    "DataDo": "2026-01-09T00:00:00+01:00",
+    "NazwaPakietu": "Pakiet SPA",
+    "NumerPokoju": 102,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 3,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "REZERWACJA",
+    "Rachunek": [
+      {
+        "Id": "ab1f6ca6-568e-4a2a-951c-379bffecfc72",
+        "NazwaUslugi": "Nocleg (Standard) x 3 dni",
+        "Kwota": 750,
+        "CenaJednostkowa": 250,
+        "Ilosc": 3,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-03T23:39:36.0994244+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "452fd41c-6364-40f3-88f0-83cf08ccd60f",
+    "KodRezerwacji": "3172/2026/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": false,
+      "Imie": "Wiktoria",
+      "Nazwisko": "Raczkowska",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-04T00:00:00+01:00",
+    "DataDo": "2026-01-09T00:00:00+01:00",
+    "NazwaPakietu": "Pakiet Sylwestrowy",
+    "NumerPokoju": 106,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 3,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "REZERWACJA",
+    "Rachunek": [
+      {
+        "Id": "75a5604f-1066-488d-9581-91f6bd2eec11",
+        "NazwaUslugi": "Nocleg (Standard) x 5 dni",
+        "Kwota": 1250,
+        "CenaJednostkowa": 250,
+        "Ilosc": 5,
+        "CzyOplacone": true,
+        "DataDodania": "2026-01-04T00:36:53.2196801+01:00"
+      },
+      {
+        "Id": "026ce9b8-b0ca-4850-a952-eb2673de0441",
+        "NazwaUslugi": "Wstawka powitalna",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2026-01-04T00:36:53.2196985+01:00"
+      },
+      {
+        "Id": "da1cf5ab-6bf8-40bc-b26f-175d5ada446e",
+        "NazwaUslugi": "MB: Batonik",
+        "Kwota": 8,
+        "CenaJednostkowa": 8,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2026-01-04T00:37:39.2750763+01:00"
+      },
+      {
+        "Id": "51015fea-f44b-423b-8b4f-499e9d05ea85",
+        "NazwaUslugi": "MB: Jack Daniels 50ml",
+        "Kwota": 35,
+        "CenaJednostkowa": 35,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2026-01-04T00:37:43.2763296+01:00"
+      },
+      {
+        "Id": "89622efe-e119-4ccd-8d92-041d942639cc",
+        "NazwaUslugi": "Bar: Whisky Single Malt",
+        "Kwota": 45,
+        "CenaJednostkowa": 45,
+        "Ilosc": 1,
+        "CzyOplacone": true,
+        "DataDodania": "2026-01-04T00:37:48.1403129+01:00"
+      }
+    ],
+    "PlikiDokumentow": [
+      {
+        "NazwaWyswietlana": "Potwierdzenie Zaliczki - 1500z\u0142 (00:38)",
+        "TrescDokumentu": "====================================================================\r\n                  HOTEL BETASI PRO *****\r\n         Ul. Wypoczynkowa 1, 81-000 Sopot, Polska\r\n     NIP: 585-000-11-22 | REGON: 123456789 | BDO: 000123456\r\n        Tel: \u002B48 58 555 00 00 | recepcja@mountainpeakresort.pl\r\n                www.hotel-betasi-pro.pl\r\n====================================================================\r\nDOKUMENT:   POTWIERDZENIE ZALICZKI\r\nNUMER:      3172/2026/IND/DOK/244\r\nMIEJSCE:    Sopot\r\nDATA WYST.: 2026-01-04\r\nDATA SPRZ.: 2026-01-04 00:38\r\n--------------------------------------------------------------------\r\nSPRZEDAWCA:\r\nHotel Betasi Pro Sp. z o.o.\r\nUl. Wypoczynkowa 1, 81-000 Sopot\r\nKonto: 12 1020 3040 0000 1111 2222 3333 (PKO BP)\r\n \r\nNABYWCA:\r\nWiktoria Raczkowska\r\n--------------------------------------------------------------------\r\nSZCZEG\u00D3\u0141Y TRANSAKCJI:\r\nRezerwacja: 3172/2026/IND  |  Pok\u00F3j: Standard\r\nTermin:     04.01.2026 - 09.01.2026 (5 d\u00F3b)\r\n--------------------------------------------------------------------\r\nNAZWA TOWARU / US\u0141UGI            | IL. |  JM |      CENA |   WARTO\u015A\u0106\r\n--------------------------------------------------------------------\r\nWp\u0142ata zaliczki                  |   1 | szt |   1500,00 |   1500,00\r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n.                                |     |     |           |          \r\n--------------------------------------------------------------------\r\nROZLICZENIE PODATKU VAT (PLN):\r\nSTAWKA          | NETTO           | KWOTA VAT       | BRUTTO      \r\nPodst. 23%      | 1219,51         | 280,49          | 1500,00     \r\n--------------------------------------------------------------------\r\nDO ZAP\u0141ATY:             1500,00 PLN\r\nS\u0141OWNIE:                (tu wstaw funkcj\u0119 zamiany na s\u0142owa)\r\nMETODA P\u0141ATNO\u015ACI:       ZALICZKA\r\nSTATUS P\u0141ATNO\u015ACI:       OP\u0141ACONO\r\n\n\n\r\nUWAGI I KLAUZULE:\r\nDokument wystawiony elektronicznie na podstawie artyku\u0142u 106n ustawy\no VAT.\r\nNiniejsza faktura stanowi tytu\u0142 wykonawczy.\r\n\n\r\n       .........................           .........................\r\n           Osoba upowa\u017Cniona                   Osoba upowa\u017Cniona\r\n              do odbioru                         do wystawienia\r\n====================================================================\r\nWygenerowano z systemu Hotel Betasi Pro: 4.01.2026 00:38:04\r\n",
+        "Data": "2026-01-04T00:38:04.8577348+01:00"
+      },
+      {
+        "NazwaWyswietlana": "PARAGON FISKALNY - 1488z\u0142 (00:38)",
+        "TrescDokumentu": "====================================================================\r\n                  HOTEL BETASI PRO *****\r\n         Ul. Wypoczynkowa 1, 81-000 Sopot, Polska\r\n     NIP: 585-000-11-22 | REGON: 123456789 | BDO: 000123456\r\n        Tel: \u002B48 58 555 00 00 | recepcja@mountainpeakresort.pl\r\n                www.hotel-betasi-pro.pl\r\n====================================================================\r\nDOKUMENT:   PARAGON FISKALNY\r\nNUMER:      3172/2026/IND/DOK/80\r\nMIEJSCE:    Sopot\r\nDATA WYST.: 2026-01-04\r\nDATA SPRZ.: 2026-01-04 00:38\r\n--------------------------------------------------------------------\r\nSPRZEDAWCA:\r\nHotel Betasi Pro Sp. z o.o.\r\nUl. Wypoczynkowa 1, 81-000 Sopot\r\nKonto: 12 1020 3040 0000 1111 2222 3333 (PKO BP)\r\n \r\nNABYWCA:\r\nWiktoria Raczkowska\r\n--------------------------------------------------------------------\r\nSZCZEG\u00D3\u0141Y TRANSAKCJI:\r\nRezerwacja: 3172/2026/IND  |  Pok\u00F3j: Standard\r\nTermin:     04.01.2026 - 09.01.2026 (5 d\u00F3b)\r\n--------------------------------------------------------------------\r\nNAZWA TOWARU / US\u0141UGI            | IL. |  JM |      CENA |   WARTO\u015A\u0106\r\n--------------------------------------------------------------------\r\nBar: Whisky Single Malt          |   1 | szt |     45,00 |     45,00\r\nMB: Jack Daniels 50ml            |   1 | szt |     35,00 |     35,00\r\nMB: Batonik                      |   1 | szt |      8,00 |      8,00\r\nWstawka powitalna                |   1 | szt |    150,00 |    150,00\r\nNocleg (Standard) x 5 dni        |   5 | szt |    250,00 |   1250,00\r\n--------------------------------------------------------------------\r\nROZLICZENIE PODATKU VAT (PLN):\r\nSTAWKA          | NETTO           | KWOTA VAT       | BRUTTO      \r\nPodst. 23%      | 1209,76         | 278,24          | 1488,00     \r\n--------------------------------------------------------------------\r\nDO ZAP\u0141ATY:             1488,00 PLN\r\nS\u0141OWNIE:                (tu wstaw funkcj\u0119 zamiany na s\u0142owa)\r\nMETODA P\u0141ATNO\u015ACI:       KARTA / GOT\u00D3WKA\r\nSTATUS P\u0141ATNO\u015ACI:       OP\u0141ACONO\r\n\n\n\r\nUWAGI I KLAUZULE:\r\nDokument wystawiony elektronicznie na podstawie artyku\u0142u 106n ustawy\no VAT.\r\nNiniejsza faktura stanowi tytu\u0142 wykonawczy.\r\n\n\r\n       .........................           .........................\r\n           Osoba upowa\u017Cniona                   Osoba upowa\u017Cniona\r\n              do odbioru                         do wystawienia\r\n====================================================================\r\nWygenerowano z systemu Hotel Betasi Pro: 4.01.2026 00:38:29\r\n",
+        "Data": "2026-01-04T00:38:29.2708266+01:00"
+      }
+    ],
+    "WplaconaZaliczka": 1500,
+    "DlugoscPobytu": 5
+  },
+  {
+    "Id": "30e686b6-6fb9-406b-910f-745e876ca292",
+    "KodRezerwacji": "8981/2026/IND",
+    "GoscGlowny": {
+      "Pesel": "97685532",
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": false,
+      "Imie": "Monika",
+      "Nazwisko": "Kalisz",
+      "Email": "",
+      "Adres": ""
+    },
+    "DataOd": "2026-01-17T00:00:00+01:00",
+    "DataDo": "2026-01-20T00:00:00+01:00",
+    "NazwaPakietu": "Pakiet SPA",
+    "NumerPokoju": 103,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "REZERWACJA",
+    "Rachunek": [
+      {
+        "Id": "68ead19e-4be6-470c-866c-f1c616696a96",
+        "NazwaUslugi": "Nocleg (Standard) x 3 dni",
+        "Kwota": 750,
+        "CenaJednostkowa": 250,
+        "Ilosc": 3,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-17T08:06:45.5554103+01:00"
+      },
+      {
+        "Id": "e84a436b-b08b-4b19-b1fd-449268448ade",
+        "NazwaUslugi": "Pobyt zwierz\u0119cia",
+        "Kwota": 300,
+        "CenaJednostkowa": 100,
+        "Ilosc": 3,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-17T08:06:45.5555066+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  },
+  {
+    "Id": "a4569075-5c6f-4b87-86b2-b8bda15ff894",
+    "KodRezerwacji": "1836/2026/IND",
+    "GoscGlowny": {
+      "Pesel": null,
+      "NrDowodu": null,
+      "NazwaFirmy": null,
+      "NIP": null,
+      "AdresFirmy": null,
+      "Parking": false,
+      "NrRejestracyjny": null,
+      "MarkaSamochodu": null,
+      "ChceFakture": false,
+      "Imie": "oliwier",
+      "Nazwisko": "Mnisz",
+      "Email": null,
+      "Adres": null
+    },
+    "DataOd": "2026-01-15T00:00:00+01:00",
+    "DataDo": "2026-01-18T00:00:00+01:00",
+    "NazwaPakietu": "Pobyt Indywidualny",
+    "NumerPokoju": 106,
+    "StandardPokoju": "Standard",
+    "IloscOsob": 2,
+    "Sniadanie": false,
+    "Obiadokolacja": true,
+    "Status": "REZERWACJA",
+    "Rachunek": [
+      {
+        "Id": "1f641327-d3eb-4975-9b11-cd79ae3084c3",
+        "NazwaUslugi": "Nocleg (Standard) x 3 dni",
+        "Kwota": 750,
+        "CenaJednostkowa": 250,
+        "Ilosc": 3,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-17T08:07:12.9615982+01:00"
+      },
+      {
+        "Id": "80aaddf4-3100-44a0-8aac-25cc584adca3",
+        "NazwaUslugi": "Obiadokolacje x 3 dni",
+        "Kwota": 714,
+        "CenaJednostkowa": 238,
+        "Ilosc": 3,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-17T08:07:12.9616137+01:00"
+      },
+      {
+        "Id": "b6d59212-4361-4e92-876b-4d3021d1f418",
+        "NazwaUslugi": "Wstawka powitalna",
+        "Kwota": 150,
+        "CenaJednostkowa": 150,
+        "Ilosc": 1,
+        "CzyOplacone": false,
+        "DataDodania": "2026-01-17T08:07:12.9616144+01:00"
+      }
+    ],
+    "PlikiDokumentow": [],
+    "WplaconaZaliczka": 0,
+    "DlugoscPobytu": 3
+  }
+]
