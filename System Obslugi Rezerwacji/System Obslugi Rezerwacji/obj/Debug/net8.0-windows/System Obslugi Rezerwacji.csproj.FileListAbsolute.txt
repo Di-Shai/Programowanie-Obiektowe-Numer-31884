@@ -14,3 +14,20 @@ C:\Users\HP\Desktop\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obs
 C:\Users\HP\Desktop\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.pdb
 C:\Users\HP\Desktop\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.genruntimeconfig.cache
 C:\Users\HP\Desktop\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\ref\System Obslugi Rezerwacji.dll
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\bin\Debug\net8.0-windows\System Obslugi Rezerwacji.exe
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\bin\Debug\net8.0-windows\System Obslugi Rezerwacji.deps.json
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\bin\Debug\net8.0-windows\System Obslugi Rezerwacji.runtimeconfig.json
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\bin\Debug\net8.0-windows\System Obslugi Rezerwacji.dll
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\bin\Debug\net8.0-windows\System Obslugi Rezerwacji.pdb
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System_Obslugi_Rezerwacji.Form1.resources
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.AssemblyInfo.cs
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.sourcelink.json
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.dll
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\refint\System Obslugi Rezerwacji.dll
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.pdb
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\System Obslugi Rezerwacji.genruntimeconfig.cache
+C:\Users\HP\Desktop\STUDIA\PROJEKTY\SystemObslugiRezerwacji\System Obslugi Rezerwacji\System Obslugi Rezerwacji\obj\Debug\net8.0-windows\ref\System Obslugi Rezerwacji.dll

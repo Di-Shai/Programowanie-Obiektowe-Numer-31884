@@ -1,5 +1,6 @@
 ﻿#nullable disable
 
+using System.Data;
 using System.Reflection;
 using System.Text;
 using System.Text.Json;
@@ -177,6 +178,7 @@ namespace SystemHotelowyMountainPeakResort
     }
     public class MainForm : Form
     {
+        private Dictionary<string, List<string>> aktywneFiltry = new Dictionary<string, List<string>>();
         private Panel panelInfo;
         private Label lblInfoHeader;
         private Label lblInfoBody;
@@ -197,6 +199,13 @@ namespace SystemHotelowyMountainPeakResort
         private DateTime viewStart = DateTime.Today.AddDays(-3);
         private int viewDays = 40;
         private Guid selectedReservationId = Guid.Empty;
+
+        private Panel viewRaporty;
+        private DataGridView gridRaporty;
+        private DateTimePicker dtpRaport;
+        private ComboBox cbFiltrStatus;
+        private ComboBox cbFiltrStandard;
+        private ComboBox cbFiltrPakiet;
 
         public MainForm()
         {
@@ -232,7 +241,6 @@ namespace SystemHotelowyMountainPeakResort
                 Height = 120,
                 Padding = new Padding(10, 0, 10, 20)
             };
-
             var lblDaneAdresowe = new Label
             {
                 Text = "MOUNTAIN PEAK RESORT\nUl. Wypoczynkowa 1, 81-000 Sopot\nNIP: 585-000-11-22\nTel: +48 58 555 00 00 | recepcja@mountainpeakresort.pl",
@@ -249,6 +257,8 @@ namespace SystemHotelowyMountainPeakResort
             DodajPrzyciskMenu("GRAFIK", "GRAFIK");
             DodajPrzyciskMenu("LISTA REZERWACJI", "REZERWACJE");
 
+            DodajPrzyciskMenu("RAPORTY", "RAPORTY");
+
             contentPanel = new Panel { Dock = DockStyle.Fill, Padding = new Padding(0), BackColor = Color.FromArgb(240, 242, 245) };
 
             this.Controls.Add(contentPanel);
@@ -257,6 +267,7 @@ namespace SystemHotelowyMountainPeakResort
             InitDashboard();
             InitGrafik();
             InitRezerwacje();
+            InitRaporty();
         }
         private void DodajPrzyciskMenu(string text, string tag)
         {
@@ -293,6 +304,9 @@ namespace SystemHotelowyMountainPeakResort
                 case "REZERWACJE":
                     OdswiezListeRezerwacji();
                     contentPanel.Controls.Add(viewRezerwacje);
+                    break;
+                case "RAPORTY":
+                    contentPanel.Controls.Add(viewRaporty);
                     break;
             }
         }
@@ -377,8 +391,9 @@ namespace SystemHotelowyMountainPeakResort
                 SelectionMode = DataGridViewSelectionMode.FullRowSelect,
                 BackgroundColor = Color.White,
                 BorderStyle = BorderStyle.None,
-                AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None
+                AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None,
             };
+
 
             g.EnableHeadersVisualStyles = false;
             g.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(230, 230, 235);
@@ -935,7 +950,7 @@ namespace SystemHotelowyMountainPeakResort
                     lblInfoHeader.BackColor = headerColor;
                     lblInfoHeader.Text = $"{r.GoscGlowny.Imie} {r.GoscGlowny.Nazwisko}";
 
-                    string czyFaktura = r.GoscGlowny.ChceFakture? $"TAK" : "NIE";
+                    string czyFaktura = r.GoscGlowny.ChceFakture ? $"TAK" : "NIE";
 
                     decimal calosc = r.Rachunek.Sum(x => x.Kwota);
 
@@ -1274,18 +1289,34 @@ namespace SystemHotelowyMountainPeakResort
             var grpStatus = new GroupBox { Text = "Zmień status rezerwacji", Width = 440, Height = 220, Margin = new Padding(0, 20, 0, 0) };
             var flowStatus = new FlowLayoutPanel { Dock = DockStyle.Fill, Padding = new Padding(10) };
 
-            var btnZamelduj = new Button { Text = "ZAMELDUJ", Width = 190, Height = 40, BackColor = Color.LightGreen, FlatStyle = FlatStyle.Flat, Enabled = (r.Status == "REZERWACJA") };
+            var btnZamelduj = new Button
+            {
+                Text = "ZAMELDUJ",
+                Width = 190,
+                Height = 40,
+                BackColor = Color.LightGreen,
+                FlatStyle = FlatStyle.Flat,
+                Enabled = (r.Status == "REZERWACJA")
+            };
+
             btnZamelduj.Click += (s, e) =>
             {
                 OknoMeldunku(r);
             };
 
-            var btnWymelduj = new Button { Text = "WYMELDUJ", Width = 190, Height = 40, BackColor = Color.SkyBlue, FlatStyle = FlatStyle.Flat, Enabled = (r.Status == "ZAMELDOWANY") };
+            var btnWymelduj = new Button
+            {
+                Text = "WYMELDUJ",
+                Width = 190,
+                Height = 40,
+                BackColor = Color.LightGreen,
+                FlatStyle = FlatStyle.Flat,
+                Enabled = (r.Status == "ZAMELDOWANY")
+            };
+
             btnWymelduj.Click += (s, e) =>
             {
-                r.Status = "WYMELDOWANY";
-                BazaDanych.Zapisz();
-                f.Close();
+                ProceduraWymeldowania(r);
             };
 
             var btnAnuluj = new Button { Text = "ANULUJ REZERWACJĘ", Width = 390, Height = 40, BackColor = Color.Salmon, FlatStyle = FlatStyle.Flat, Margin = new Padding(0, 10, 0, 0) };
@@ -1524,7 +1555,7 @@ namespace SystemHotelowyMountainPeakResort
             chkChceFakture.CheckedChanged += (s, e) =>
             {
                 flowPolaFaktury.Enabled = chkChceFakture.Checked;
-                if (!chkChceFakture.Checked){}
+                if (!chkChceFakture.Checked) { }
             };
 
             flowFaktura.Controls.Add(chkChceFakture);
@@ -1670,9 +1701,7 @@ namespace SystemHotelowyMountainPeakResort
 
             btnOplacZaznaczone.Click += (s, e) =>
             {
-                decimal sumaWybranych = 0;
                 var wybraneObciazenia = new List<Obciazenie>();
-
                 foreach (DataGridViewRow row in grid.SelectedRows)
                 {
                     Guid id = (Guid)row.Cells["Id"].Value;
@@ -1680,11 +1709,54 @@ namespace SystemHotelowyMountainPeakResort
                     if (!obc.CzyOplacone)
                     {
                         wybraneObciazenia.Add(obc);
-                        sumaWybranych += obc.Kwota;
                     }
                 }
 
-                if (sumaWybranych > 0)
+                if (wybraneObciazenia.Count == 0)
+                {
+                    MessageBox.Show("Zaznacz nieopłacone pozycje.");
+                    return;
+                }
+
+                decimal dostepnaZaliczka = r.WplaconaZaliczka;
+
+                var alokacjaZaliczki = wybraneObciazenia.ToDictionary(x => x, x => 0m);
+                decimal doRozdzielenia = dostepnaZaliczka;
+
+                bool dokonanoZmian = true;
+                while (dokonanoZmian && doRozdzielenia > 0.00m)
+                {
+                    dokonanoZmian = false;
+                    var kandydaci = wybraneObciazenia.Where(o => alokacjaZaliczki[o] < o.Kwota).ToList();
+
+                    if (kandydaci.Count == 0) break;
+
+                    decimal porcja = Math.Round(doRozdzielenia / kandydaci.Count, 2);
+  
+                    if (porcja == 0 && doRozdzielenia > 0) porcja = 0.01m;
+
+                    foreach (var item in kandydaci)
+                    {
+                        if (doRozdzielenia <= 0) break;
+                        decimal miejsce = item.Kwota - alokacjaZaliczki[item];
+
+                        decimal kwotaDoDodania = Math.Min(porcja, miejsce);
+                        kwotaDoDodania = Math.Min(kwotaDoDodania, doRozdzielenia);
+
+                        if (kwotaDoDodania > 0)
+                        {
+                            alokacjaZaliczki[item] += kwotaDoDodania;
+                            doRozdzielenia -= kwotaDoDodania;
+                            dokonanoZmian = true;
+                        }
+                    }
+                }
+
+                decimal calkowitaUzytaZaliczka = dostepnaZaliczka - doRozdzielenia;
+                decimal sumaCalkowitaPozycji = wybraneObciazenia.Sum(x => x.Kwota);
+                decimal sumaDoZaplaty = sumaCalkowitaPozycji - calkowitaUzytaZaliczka;
+
+                if (sumaCalkowitaPozycji > 0)
                 {
                     string typ = "PARAGON FISKALNY";
                     bool klientFaturowy = r.GoscGlowny != null && r.GoscGlowny.ChceFakture;
@@ -1695,20 +1767,24 @@ namespace SystemHotelowyMountainPeakResort
                     }
                     else
                     {
-                        typ = MessageBox.Show("Czy wygenerować FAKTURĘ VAT? (Nie = Paragon)", "Typ dokumentu", MessageBoxButtons.YesNo) == DialogResult.Yes ? "FAKTURA VAT" : "PARAGON FISKALNY";
+                        typ = MessageBox.Show("Czy wygenerować FAKTURĘ VAT? (Nie = Paragon)", "Typ dokumentu", MessageBoxButtons.YesNo) == DialogResult.Yes ?
+                              "FAKTURA VAT" : "PARAGON FISKALNY";
                     }
 
-                    GenerujDokument(r, typ, wybraneObciazenia, sumaWybranych, "KARTA / GOTÓWKA");
+                    r.WplaconaZaliczka -= calkowitaUzytaZaliczka;
+                    GenerujDokument(r, typ, wybraneObciazenia, sumaDoZaplaty, "KARTA / GOTÓWKA");
 
                     foreach (var o in wybraneObciazenia) o.CzyOplacone = true;
+
                     BazaDanych.Zapisz();
                     OdswiezFinanseUI(r, grid, lblSuma, lblZaliczka, lblDoZaplaty, lstDokumenty);
 
-                    MessageBox.Show($"Opłacono {wybraneObciazenia.Count} pozycji. Wystawiono: {typ}");
+                    string infoZaliczka = calkowitaUzytaZaliczka > 0 ? $"\nRozliczono z zaliczki: {calkowitaUzytaZaliczka:C2}" : "";
+                    MessageBox.Show($"Opłacono {wybraneObciazenia.Count} pozycji. Wystawiono: {typ}\nDo dopłaty: {sumaDoZaplaty:C2}{infoZaliczka}");
                 }
                 else
                 {
-                    MessageBox.Show("Zaznacz nieopłacone pozycje.");
+                    MessageBox.Show("Suma wybranych pozycji wynosi 0.");
                 }
             };
 
@@ -2059,6 +2135,474 @@ Ul. Wypoczynkowa 1, Sopot";
             r.Status = "WYMELDOWANY";
             BazaDanych.Zapisz();
             MessageBox.Show("Wymeldowano.");
+        }
+
+        private void InitRaporty()
+        {
+            viewRaporty = new Panel { Dock = DockStyle.Fill, BackColor = Color.FromArgb(245, 247, 250), Padding = new Padding(20) };
+
+            var pnlTop = new Panel
+            {
+                Dock = DockStyle.Top,
+                Height = 80,
+                BackColor = Color.White,
+                Padding = new Padding(15)
+            };
+            pnlTop.Paint += (s, e) => ControlPaint.DrawBorder(e.Graphics, pnlTop.ClientRectangle, Color.LightGray, ButtonBorderStyle.Solid);
+
+            var lblTyp = new Label { Text = "Rodzaj raportu:", Location = new Point(20, 15), AutoSize = true, Font = new Font("Segoe UI", 9, FontStyle.Bold), ForeColor = Color.DimGray };
+            var cbRaporty = new ComboBox { Location = new Point(20, 35), Width = 280, DropDownStyle = ComboBoxStyle.DropDownList, Font = new Font("Segoe UI", 10), BackColor = Color.WhiteSmoke };
+            cbRaporty.Items.AddRange(new string[] {
+                    "Raport Rezerwacji (Wszystkie)",
+                    "Raport Przyjazdów (Dzienny)",
+                    "Raport Wyjazdów (Dzienny)",
+                    "Raport Samochodów (Parking)",
+                    "Raport Meldunkowy (Obecni goście)",
+                    "Raport dla Kuchni",
+                    "Raport dla Pokojowych"
+            });
+            cbRaporty.SelectedIndex = 0;
+
+            var lblData = new Label { Text = "Data raportu:", Location = new Point(320, 15), AutoSize = true, Font = new Font("Segoe UI", 9, FontStyle.Bold), ForeColor = Color.DimGray };
+            dtpRaport = new DateTimePicker { Location = new Point(320, 35), Width = 140, Format = DateTimePickerFormat.Short, Font = new Font("Segoe UI", 10) };
+
+            var btnGeneruj = new Button
+            {
+                Text = "POKAŻ PODGLĄD",
+                Location = new Point(500, 34),
+                Width = 140,
+                Height = 32,
+                BackColor = Color.FromArgb(52, 152, 219),
+                ForeColor = Color.White,
+                FlatStyle = FlatStyle.Flat,
+                Cursor = Cursors.Hand,
+                Font = new Font("Segoe UI", 9, FontStyle.Bold)
+            };
+
+            var btnExcel = new Button
+            {
+                Text = "EKSPORTUJ (CSV)",
+                Location = new Point(660, 34),
+                Width = 140,
+                Height = 32,
+                BackColor = Color.FromArgb(39, 174, 96),
+                ForeColor = Color.White,
+                FlatStyle = FlatStyle.Flat,
+                Cursor = Cursors.Hand,
+                Font = new Font("Segoe UI", 9, FontStyle.Bold)
+            };
+
+            var btnCzyscFiltry = new Button
+            {
+                Text = "Wyczyść filtry",
+                Location = new Point(820, 34),
+                Width = 120,
+                Height = 32,
+                BackColor = Color.IndianRed,
+                ForeColor = Color.White,
+                FlatStyle = FlatStyle.Flat,
+                Cursor = Cursors.Hand,
+                Font = new Font("Segoe UI", 9, FontStyle.Bold),
+                Visible = false
+            };
+
+            pnlTop.Controls.AddRange(new Control[] { lblTyp, cbRaporty, lblData, dtpRaport, btnGeneruj, btnExcel, btnCzyscFiltry });
+
+            gridRaporty = new DataGridView
+            {
+                Dock = DockStyle.Fill,
+                AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill,
+                BackgroundColor = Color.White,
+                BorderStyle = BorderStyle.None,
+                ReadOnly = true,
+                AllowUserToAddRows = false,
+                RowHeadersVisible = false,
+                EnableHeadersVisualStyles = false,
+                SelectionMode = DataGridViewSelectionMode.FullRowSelect,
+                AllowUserToOrderColumns = false
+            };
+            gridRaporty.RowTemplate.Height = 35;
+
+            gridRaporty.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(44, 62, 80);
+            gridRaporty.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            gridRaporty.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            gridRaporty.ColumnHeadersHeight = 45;
+
+            gridRaporty.DefaultCellStyle.Font = new Font("Segoe UI", 9);
+            gridRaporty.DefaultCellStyle.Padding = new Padding(4);
+            gridRaporty.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(248, 249, 250);
+
+            var pnlGridContainer = new Panel { Dock = DockStyle.Fill, Padding = new Padding(0, 20, 0, 0) };
+            pnlGridContainer.Controls.Add(gridRaporty);
+            viewRaporty.Controls.Add(pnlGridContainer);
+            viewRaporty.Controls.Add(pnlTop);
+
+            cbRaporty.SelectedIndexChanged += (s, e) =>
+            {
+                string wybrano = cbRaporty.SelectedItem.ToString();
+                dtpRaport.Enabled = wybrano.Contains("Dzienny") || wybrano.Contains("Kuchni") || wybrano.Contains("Pokojowych");
+            };
+
+            btnGeneruj.Click += (s, e) =>
+            {
+                aktywneFiltry.Clear();
+                btnCzyscFiltry.Visible = false;
+                GenerujDaneDoRaportu(cbRaporty.SelectedItem.ToString());
+            };
+
+            btnExcel.Click += (s, e) =>
+            {
+                if (gridRaporty.Rows.Count == 0) { MessageBox.Show("Brak danych."); return; }
+                ZapiszDoPlikuCSV(cbRaporty.SelectedItem.ToString());
+            };
+
+            btnCzyscFiltry.Click += (s, e) =>
+            {
+                aktywneFiltry.Clear();
+                ZastosujFiltry();
+                btnCzyscFiltry.Visible = false;
+                gridRaporty.Refresh();
+            };
+
+            gridRaporty.CellPainting += (s, e) =>
+            {
+                if (e.RowIndex == -1 && e.ColumnIndex > -1)
+                {
+                    e.Paint(e.CellBounds, DataGridViewPaintParts.All & ~DataGridViewPaintParts.ContentForeground);
+
+                    string headerText = gridRaporty.Columns[e.ColumnIndex].HeaderText;
+
+                    bool isFiltered = aktywneFiltry.ContainsKey(gridRaporty.Columns[e.ColumnIndex].Name);
+                    Color iconColor = isFiltered ? Color.Yellow : Color.LightGray;
+
+                    TextRenderer.DrawText(e.Graphics, headerText, e.CellStyle.Font,
+                        new Rectangle(e.CellBounds.X + 5, e.CellBounds.Y, e.CellBounds.Width - 25, e.CellBounds.Height),
+                        e.CellStyle.ForeColor, TextFormatFlags.VerticalCenter | TextFormatFlags.Left);
+
+                    var rectFilter = new Rectangle(e.CellBounds.Right - 20, e.CellBounds.Y + 12, 16, 16);
+                    TextRenderer.DrawText(e.Graphics, "▼", new Font("Segoe UI", 8), rectFilter, iconColor, TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
+
+                    e.Handled = true;
+                }
+            };
+
+            gridRaporty.ColumnHeaderMouseClick += (s, e) =>
+            {
+                Point mousePos = gridRaporty.PointToClient(Cursor.Position);
+                Rectangle headerRect = gridRaporty.GetCellDisplayRectangle(e.ColumnIndex, -1, true);
+
+                bool klikWStrzalke = mousePos.X > (headerRect.Right - 25);
+
+                if (klikWStrzalke)
+                {
+                    PokazMenuFiltrowania(e.ColumnIndex, btnCzyscFiltry);
+                }
+                else
+                {
+                    var col = gridRaporty.Columns[e.ColumnIndex];
+                    var dt = (System.Data.DataTable)gridRaporty.DataSource;
+                    if (dt == null) return;
+
+                    string currentSort = dt.DefaultView.Sort;
+                    string newSort = col.Name + " ASC";
+
+                    if (!string.IsNullOrEmpty(currentSort) && currentSort.StartsWith(col.Name))
+                    {
+                        if (currentSort.EndsWith("ASC")) newSort = col.Name + " DESC";
+                    }
+
+                    dt.DefaultView.Sort = newSort;
+                }
+            };
+        }
+        private void PokazMenuFiltrowania(int colIndex, Button btnCzysc)
+        {
+            string colName = gridRaporty.Columns[colIndex].Name;
+            var dt = (System.Data.DataTable)gridRaporty.DataSource;
+
+            var distinctValues = dt.AsEnumerable()
+                .Select(row => row[colName].ToString())
+                .Distinct()
+                .OrderBy(val => val)
+                .ToList();
+
+            ContextMenuStrip menu = new ContextMenuStrip();
+            menu.ShowCheckMargin = true;
+            menu.ShowImageMargin = false;
+            menu.Font = new Font("Segoe UI", 9);
+
+            bool pozwolZamknac = false;
+
+            var itemAll = new ToolStripMenuItem(" (Zaznacz/Odznacz wszystkie)");
+            itemAll.Click += (s, args) =>
+            {
+                bool stanDocelowy = true;
+
+                if (menu.Items.Count > 2 && menu.Items[2] is ToolStripMenuItem pierwszyItem)
+                {
+                    stanDocelowy = !pierwszyItem.Checked;
+                }
+
+                foreach (ToolStripItem item in menu.Items)
+                {
+                    if (item is ToolStripMenuItem tsi && tsi != itemAll && tsi.Text != "ZASTOSUJ FILTR")
+                    {
+                        tsi.Checked = stanDocelowy;
+                    }
+                }
+            };
+            menu.Items.Add(itemAll);
+            menu.Items.Add(new ToolStripSeparator());
+
+            foreach (var val in distinctValues)
+            {
+                var item = new ToolStripMenuItem(string.IsNullOrEmpty(val) ? "(Puste)" : val);
+                item.CheckOnClick = true;
+
+                if (aktywneFiltry.ContainsKey(colName))
+                {
+                    if (aktywneFiltry[colName].Contains(val)) item.Checked = true;
+                }
+                else
+                {
+                    item.Checked = true;
+                }
+
+                menu.Items.Add(item);
+            }
+
+            menu.Items.Add(new ToolStripSeparator());
+            var btnApply = new ToolStripMenuItem("ZASTOSUJ FILTR");
+            btnApply.BackColor = Color.CornflowerBlue;
+            btnApply.ForeColor = Color.White;
+            btnApply.Font = new Font("Segoe UI", 9, FontStyle.Bold);
+
+            btnApply.Click += (s, args) =>
+            {
+                List<string> wybrane = new List<string>();
+                int licznikOpcji = 0;
+
+                foreach (ToolStripItem it in menu.Items)
+                {
+                    if (it is ToolStripMenuItem tsi && tsi.CheckOnClick)
+                    {
+                        licznikOpcji++;
+                        if (tsi.Checked)
+                        {
+                            wybrane.Add(tsi.Text == "(Puste)" ? "" : tsi.Text);
+                        }
+                    }
+                }
+
+                if (wybrane.Count == licznikOpcji)
+                {
+                    if (aktywneFiltry.ContainsKey(colName)) aktywneFiltry.Remove(colName);
+                }
+                else
+                {
+                    aktywneFiltry[colName] = wybrane;
+                }
+
+                ZastosujFiltry();
+                btnCzysc.Visible = aktywneFiltry.Count > 0;
+                gridRaporty.Refresh();
+
+                pozwolZamknac = true;
+            };
+            menu.Items.Add(btnApply);
+
+            menu.Closing += (s, e) =>
+            {
+                if (e.CloseReason == ToolStripDropDownCloseReason.ItemClicked && !pozwolZamknac)
+                {
+                    e.Cancel = true;
+                }
+            };
+
+            Rectangle r = gridRaporty.GetCellDisplayRectangle(colIndex, -1, true);
+            menu.Show(gridRaporty, new Point(r.Left, r.Bottom));
+        }
+
+        private void ZastosujFiltry()
+        {
+            var dt = (System.Data.DataTable)gridRaporty.DataSource;
+            if (dt == null) return;
+
+            if (aktywneFiltry.Count == 0)
+            {
+                dt.DefaultView.RowFilter = "";
+                return;
+            }
+
+            List<string> czesciFiltra = new List<string>();
+
+            foreach (var kvp in aktywneFiltry)
+            {
+                string col = kvp.Key;
+                var wartosci = kvp.Value;
+
+                if (wartosci.Count > 0)
+                {
+                    var clauses = wartosci.Select(v => $"[{col}] = '{v.Replace("'", "''")}'");
+                    czesciFiltra.Add("(" + string.Join(" OR ", clauses) + ")");
+                }
+                else
+                {
+                    czesciFiltra.Add("(1 = 0)");
+                }
+            }
+
+            dt.DefaultView.RowFilter = string.Join(" AND ", czesciFiltra);
+        }
+
+        private void GenerujDaneDoRaportu(string typRaportu)
+        {
+            gridRaporty.DataSource = null;
+            DateTime data = dtpRaport.Value.Date;
+
+            System.Data.DataTable dt = new System.Data.DataTable();
+
+            IEnumerable<Rezerwacja> query = BazaDanych.Rezerwacje;
+
+            if (typRaportu.Contains("Przyjazdów") || typRaportu.Contains("Pokojowych"))
+                query = query.Where(r => r.DataOd.Date == data);
+            else if (typRaportu.Contains("Wyjazdów"))
+                query = query.Where(r => r.DataDo.Date == data);
+            else if (typRaportu.Contains("Meldunkowy"))
+                query = query.Where(r => r.Status == "ZAMELDOWANY");
+            else if (typRaportu.Contains("Samochodów"))
+                query = query.Where(r => r.Status == "ZAMELDOWANY" && r.GoscGlowny.Parking);
+            else if (typRaportu.Contains("Kuchni"))
+            {
+                dt.Columns.Add("Posiłek", typeof(string));
+                dt.Columns.Add("Ilość", typeof(int));
+
+                var wTerminie = BazaDanych.Rezerwacje
+                   .Where(r => (r.Status == "ZAMELDOWANY" || r.Status == "REZERWACJA")
+                            && data >= r.DataOd.Date && data < r.DataDo.Date).ToList();
+
+                int sniadania = wTerminie.Sum(r => r.IloscOsob);
+                int obiady = wTerminie.Where(r => r.Obiadokolacja || r.NazwaPakietu != "Pobyt indywidualny").Sum(r => r.IloscOsob);
+
+                dt.Rows.Add("Śniadania", sniadania);
+                dt.Rows.Add("Obiadokolacje", obiady);
+            }
+
+            if (!typRaportu.Contains("Kuchni"))
+            {
+                var lista = query.ToList();
+
+                dt.Columns.Add("Nr Rezerwacji", typeof(string));
+                dt.Columns.Add("Pokój", typeof(int));
+
+                if (typRaportu.Contains("Rezerwacji"))
+                {
+                    dt.Columns.Add("Gość", typeof(string));
+                    dt.Columns.Add("Od", typeof(DateTime));
+                    dt.Columns.Add("Do", typeof(DateTime));
+                    dt.Columns.Add("Status", typeof(string));
+                    dt.Columns.Add("Pakiet", typeof(string));
+                    dt.Columns.Add("Standard", typeof(string));
+                    dt.Columns.Add("Kwota", typeof(decimal));
+
+                    foreach (var r in lista)
+                        dt.Rows.Add(r.KodRezerwacji, r.NumerPokoju, r.GoscGlowny.PobierzDaneEtykieta(), r.DataOd, r.DataDo, r.Status, r.NazwaPakietu, r.StandardPokoju, r.Rachunek.Sum(x => x.Kwota));
+                }
+                else if (typRaportu.Contains("Przyjazdów"))
+                {
+                    dt.Columns.Add("Gość", typeof(string));
+                    dt.Columns.Add("Pakiet", typeof(string));
+                    dt.Columns.Add("Osób", typeof(int));
+                    dt.Columns.Add("Status", typeof(string));
+                    foreach (var r in lista)
+                        dt.Rows.Add(r.KodRezerwacji, r.NumerPokoju, r.GoscGlowny.PobierzDaneEtykieta(), r.NazwaPakietu, r.IloscOsob, r.Status);
+                }
+                else if (typRaportu.Contains("Wyjazdów"))
+                {
+                    dt.Columns.Add("Gość", typeof(string));
+                    dt.Columns.Add("Opłacono", typeof(string));
+                    dt.Columns.Add("Do Zapłaty", typeof(decimal));
+                    foreach (var r in lista)
+                    {
+                        decimal doZaplaty = r.Rachunek.Sum(x => x.Kwota) - r.WplaconaZaliczka - r.Rachunek.Where(x => x.CzyOplacone).Sum(x => x.Kwota);
+                        dt.Rows.Add(r.KodRezerwacji, r.NumerPokoju, r.GoscGlowny.PobierzDaneEtykieta(), r.Rachunek.All(x => x.CzyOplacone) ? "TAK" : "NIE", doZaplaty);
+                    }
+                }
+                else if (typRaportu.Contains("Samochodów"))
+                {
+                    dt.Columns.Add("Gość", typeof(string));
+                    dt.Columns.Add("Nr Rejestracyjny", typeof(string));
+                    dt.Columns.Add("Marka", typeof(string));
+                    foreach (var r in lista)
+                        dt.Rows.Add(r.KodRezerwacji, r.NumerPokoju, r.GoscGlowny.PobierzDaneEtykieta(), r.GoscGlowny.NrRejestracyjny ?? "", r.GoscGlowny.MarkaSamochodu ?? "");
+                }
+                else if (typRaportu.Contains("Meldunkowy"))
+                {
+                    dt.Columns.Add("Gość", typeof(string));
+                    dt.Columns.Add("PESEL", typeof(string));
+                    dt.Columns.Add("Adres", typeof(string));
+                    foreach (var r in lista)
+                        dt.Rows.Add(r.KodRezerwacji, r.NumerPokoju, r.GoscGlowny.PobierzDaneEtykieta(), r.GoscGlowny.Pesel, r.GoscGlowny.Adres);
+                }
+                else if (typRaportu.Contains("Pokojowych"))
+                {
+                    dt.Columns.Add("Standard", typeof(string));
+                    dt.Columns.Add("Zwierzak", typeof(string));
+                    dt.Columns.Add("Wstawka", typeof(string));
+                    foreach (var r in lista)
+                    {
+                        string zwierzak = r.Rachunek.Any(x => x.NazwaUslugi.ToLower().Contains("zwierz") || x.NazwaUslugi.ToLower().Contains("pies") || x.NazwaUslugi.ToLower().Contains("kot")) ? "TAK" : "-";
+                        string wstawka = r.Rachunek.Any(x => x.NazwaUslugi.ToLower().Contains("wstawka")) ? "TAK" : "-";
+                        dt.Rows.Add(r.KodRezerwacji, r.NumerPokoju, r.StandardPokoju, zwierzak, wstawka);
+                    }
+                }
+            }
+
+            gridRaporty.DataSource = dt;
+
+            foreach (DataGridViewColumn col in gridRaporty.Columns)
+            {
+                col.SortMode = DataGridViewColumnSortMode.Programmatic;
+
+                if (col.Name == "Kwota" || col.Name == "Do Zapłaty") col.DefaultCellStyle.Format = "C2";
+                if (col.Name == "Od" || col.Name == "Do") col.DefaultCellStyle.Format = "d";
+            }
+        }
+
+        private void ZapiszDoPlikuCSV(string nazwaRaportu)
+        {
+            using (SaveFileDialog sfd = new SaveFileDialog())
+            {
+                sfd.Filter = "Plik Excel (CSV)|*.csv";
+                sfd.FileName = $"{nazwaRaportu.Replace(" ", "_")}_{DateTime.Now:yyyyMMdd}.csv";
+
+                if (sfd.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        StringBuilder sb = new StringBuilder();
+
+                        string[] columnNames = gridRaporty.Columns.Cast<DataGridViewColumn>().Select(column => column.HeaderText).ToArray();
+                        sb.AppendLine(string.Join(";", columnNames));
+
+                        foreach (DataGridViewRow row in gridRaporty.Rows)
+                        {
+                            string[] cells = row.Cells.Cast<DataGridViewCell>()
+                                .Select(cell => cell.Value?.ToString() ?? "")
+                                .Select(val => val.Replace(";", ",").Replace("\n", " "))
+                                .ToArray();
+                            sb.AppendLine(string.Join(";", cells));
+                        }
+
+                        File.WriteAllText(sfd.FileName, sb.ToString(), Encoding.UTF8);
+                        MessageBox.Show("Raport zapisany pomyślnie!", "Sukces", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Błąd podczas zapisu: {ex.Message}", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
         }
 
         private TextBox DodajInput(Control parent, string label, string val, Action<string> onBlur)

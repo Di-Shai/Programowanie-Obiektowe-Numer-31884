@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("System Obslugi Rezerwacji")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+344ced0b65cd969dcad7e1ca82daa51501645146")]
 [assembly: System.Reflection.AssemblyProductAttribute("System Obslugi Rezerwacji")]
 [assembly: System.Reflection.AssemblyTitleAttribute("System Obslugi Rezerwacji")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
